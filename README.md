@@ -5,6 +5,6 @@
 
   # avis-res-lab's Website
 
-  Visit **[website url](#)** 🚀
+  Visit **[avis-res-lab.github.io](https://avis-res-lab.github.io)** 🚀
 
   _Built with [Lab Website Template](https://greene-lab.gitbook.io/lab-website-template-docs)_
