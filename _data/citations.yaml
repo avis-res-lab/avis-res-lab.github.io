@@ -1,264 +1,290 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
-- id: doi:10.1101/2025.06.19.660613
-  title: Scalable data harmonization for single-cell image-based profiling with CytoTable
+- id: arxiv:2604.20983
+  title: 'Thinking Like a Botanist: Challenging Multimodal Language Models with Intent-Driven
+    Chain-of-Inquiry'
   authors:
-  - Dave Bunten
-  - Jenna Tomkinson
-  - Erik Serrano
-  - Michael J. Lippincott
-  - Kenneth I. Brewer
-  - Vince Rubinetti
-  - Faisal Alquaddoomi
-  - Gregory P. Way
-  publisher: Cold Spring Harbor Laboratory
-  date: '2025-06-25'
-  link: https://doi.org/g9rfr3
-  orcid: 0000-0002-4655-3773
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1093/nar/gkad1082
-  title: "The Monarch Initiative in 2024: an analytic platform integrating phenotypes,\
-    \ genes\_and diseases across species"
-  authors:
-  - Tim E Putman
-  - Kevin Schaper
-  - Nicolas Matentzoglu
-  - "Vincent\_P Rubinetti"
-  - "Faisal\_S Alquaddoomi"
-  - Corey Cox
-  - J Harry Caufield
-  - Glass Elsarboukh
-  - Sarah Gehrke
-  - Harshad Hegde
-  - "Justin\_T Reese"
-  - Ian Braun
-  - "Richard\_M Bruskiewich"
-  - Luca Cappelletti
-  - Seth Carbon
-  - "Anita\_R Caron"
-  - "Lauren\_E Chan"
-  - "Christopher\_G Chute"
-  - "Katherina\_G Cortes"
-  - "Vin\xEDcius De\_Souza"
-  - Tommaso Fontana
-  - "Nomi\_L Harris"
-  - "Emily\_L Hartley"
-  - Eric Hurwitz
-  - "Julius\_O B Jacobsen"
-  - Madan Krishnamurthy
-  - "Bryan\_J Laraway"
-  - "James\_A McLaughlin"
-  - "Julie\_A McMurry"
-  - "Sierra\_A T Moxon"
-  - "Kathleen\_R Mullen"
-  - "Shawn\_T O\u2019Neil"
-  - "Kent\_A Shefchek"
-  - Ray Stefancsik
-  - Sabrina Toro
-  - "Nicole\_A Vasilevsky"
-  - "Ramona\_L Walls"
-  - "Patricia\_L Whetzel"
-  - David Osumi-Sutherland
-  - Damian Smedley
-  - "Peter\_N Robinson"
-  - "Christopher\_J Mungall"
-  - "Melissa\_A Haendel"
-  - "Monica\_C Munoz-Torres"
-  publisher: Nucleic Acids Research
-  date: '2023-11-24'
-  link: https://doi.org/gs6kmr
-  orcid: 0000-0002-4655-3773
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1101/2023.10.11.560955
-  title: Integration of 168,000 samples reveals global patterns of the human gut microbiome
-  authors:
-  - Richard J. Abdill
-  - Samantha P. Graham
-  - Vincent Rubinetti
-  - Frank W. Albert
-  - Casey S. Greene
-  - Sean Davis
-  - Ran Blekhman
-  publisher: Cold Spring Harbor Laboratory
-  date: '2023-10-11'
-  link: https://doi.org/gsvf5z
-  orcid: 0000-0002-4655-3773
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1093/nar/gkad289
-  title: 'MyGeneset.info: an interactive and programmatic platform for community-curated
-    and user-created collections of genes'
-  authors:
-  - Ricardo Avila
-  - Vincent Rubinetti
-  - Xinghua Zhou
-  - Dongbo Hu
-  - Zhongchao Qian
-  - Marco Alvarado Cano
-  - Everaldo Rodolpho
-  - Ginger Tsueng
-  - Casey Greene
-  - Chunlei Wu
-  publisher: Nucleic Acids Research
-  date: '2023-04-18'
-  link: https://doi.org/gr5hb5
-  orcid: 0000-0002-4655-3773
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1101/2023.01.05.522941
-  title: Hetnet connectivity search provides rapid insights into how two biomedical
-    entities are related
-  authors:
-  - Daniel S. Himmelstein
-  - Michael Zietz
-  - Vincent Rubinetti
-  - Kyle Kloster
-  - Benjamin J. Heil
-  - Faisal Alquaddoomi
-  - Dongbo Hu
-  - David N. Nicholson
-  - Yun Hao
-  - Blair D. Sullivan
-  - Michael W. Nagle
-  - Casey S. Greene
-  publisher: Cold Spring Harbor Laboratory
-  date: '2023-01-07'
-  link: https://doi.org/grmcb9
-  orcid: 0000-0002-4655-3773
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1093/gigascience/giad047
-  title: Hetnet connectivity search provides rapid insights into how biomedical entities
-    are related
-  authors:
-  - Daniel S Himmelstein
-  - Michael Zietz
-  - Vincent Rubinetti
-  - Kyle Kloster
-  - Benjamin J Heil
-  - Faisal Alquaddoomi
-  - Dongbo Hu
-  - David N Nicholson
-  - Yun Hao
-  - Blair D Sullivan
-  - Michael W Nagle
-  - Casey S Greene
-  publisher: GigaScience
-  date: '2022-12-28'
-  link: https://doi.org/gsd85n
-  orcid: 0000-0002-4655-3773
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1101/2022.02.18.461833
-  title: 'MolEvolvR: A web-app for characterizing proteins using molecular evolution
-    and phylogeny'
-  authors:
-  - Jacob D Krol
-  - Joseph T Burke
-  - Samuel Z Chen
-  - Lo M Sosinski
-  - Faisal S Alquaddoomi
-  - Evan P Brenner
-  - Ethan P Wolfe
-  - Vincent P Rubinetti
-  - Shaddai Amolitos
-  - Kellen M Reason
-  - John B Johnston
-  - Janani Ravi
-  publisher: Cold Spring Harbor Laboratory
-  date: '2022-02-22'
-  link: https://doi.org/gstx7j
-  orcid: 0000-0002-4655-3773
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1186/s13059-020-02021-3
-  title: Compressing gene expression data using multiple latent space dimensionalities
-    learns complementary biological representations
-  authors:
-  - Gregory P. Way
-  - Michael Zietz
-  - Vincent Rubinetti
-  - Daniel S. Himmelstein
-  - Casey S. Greene
-  publisher: Genome Biology
-  date: '2020-05-11'
-  link: https://doi.org/gg2mjh
-  orcid: 0000-0002-4655-3773
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1371/journal.pcbi.1007128
-  title: Open collaborative writing with Manubot
-  authors:
-  - Daniel S. Himmelstein
-  - Vincent Rubinetti
-  - David R. Slochower
-  - Dongbo Hu
-  - Venkat S. Malladi
-  - Casey S. Greene
-  - Anthony Gitter
-  publisher: PLOS Computational Biology
-  date: '2020-12-04'
-  link: https://doi.org/c7np
-  orcid: 0000-0002-4655-3773
-  plugin: sources.py
-  file: sources.yaml
-  type: paper
-  description: Lorem ipsum _dolor_ **sit amet**, consectetur adipiscing elit, sed
-    do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  image: https://journals.plos.org/ploscompbiol/article/figure/image?size=inline&id=info:doi/10.1371/journal.pcbi.1007128.g001&rev=2
-  buttons:
-  - type: manubot
-    link: https://greenelab.github.io/meta-review/
+  - Syed Nazmus Sakib
+  - Nafiul Haque
+  - Shahrear Bin Amin
+  - Hasan Muhammad Abdullah
+  - Md. Mehedi Hasan
+  - Mohammad Zabed Hossain
+  - Shifat E. Arman
+  publisher: arXiv
+  date: '2026-04-24'
+  link: https://arxiv.org/abs/2604.20983
+  description: Recently accepted to Association for Computational Linguistics (ACL
+    2026)
+  image: images/thinking-botanist.jpg
+  tags:
+  - NLP
+  - Computer Vision
+  button:
   - type: source
     text: Manuscript Source
-    link: https://github.com/greenelab/meta-review
-  - type: website
-    link: http://manubot.org/
-  tags:
-  - open science
-  - collaboration
-  repo: greenelab/meta-review
-- id: doi:10.1101/573782
-  title: Sequential compression of gene expression across dimensionalities and methods
-    reveals no single best method or dimensionality
-  authors:
-  - Gregory P. Way
-  - Michael Zietz
-  - Vincent Rubinetti
-  - Daniel S. Himmelstein
-  - Casey S. Greene
-  publisher: Cold Spring Harbor Laboratory
-  date: '2019-03-11'
-  link: https://doi.org/gfxjxf
-  orcid: 0000-0002-4655-3773
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1016/j.csbj.2020.05.017
-  title: Constructing knowledge graphs and their biomedical applications
-  authors:
-  - David N. Nicholson
-  - Casey S. Greene
-  publisher: Computational and Structural Biotechnology Journal
-  date: '2020-01-01'
-  link: https://doi.org/gg7m48
-  image: https://ars.els-cdn.com/content/image/1-s2.0-S2001037020302804-gr1.jpg
+    link: https://arxiv.org/abs/2604.20983
   plugin: sources.py
   file: sources.yaml
-- id: doi:10.7554/eLife.32822
-  title: Sci-Hub provides access to nearly all scholarly literature
+- id: arxiv:2509.23155
+  title: 'LAGEA: Language Guided Embodied Agents for Robotic Manipulation'
   authors:
-  - Daniel S Himmelstein
-  - Ariel Rodriguez Romero
-  - Jacob G Levernier
-  - Thomas Anthony Munro
-  - Stephen Reid McLaughlin
-  - Bastian Greshake Tzovaras
-  - Casey S Greene
-  publisher: eLife
-  date: '2018-03-01'
-  link: https://doi.org/ckcj
-  image: https://iiif.elifesciences.org/lax:32822%2Felife-32822-fig8-v3.tif/full/863,/0/default.webp
+  - Abdul Monaf Chowdhury
+  - Akm Moshiur Rahman Mazumder
+  - Rabeya Akter
+  - Safaeid Hossain Arib
+  publisher: arXiv
+  date: '2026-02-04'
+  link: https://arxiv.org/abs/2509.23155
+  description: Recently accepted to International Conference on Machine Learning (ICML
+    2026)
+  image: https://monaf-chowdhury.github.io/assets/img/publication_preview/lagea.jpg
+  tags:
+  - Embodied AI
+  - Reinforcement Learning
+  - Computer Vision
+  repo: monaf-chowdhury/lagea
+  button:
+  - type: source
+    text: Manuscript Source
+    link: https://arxiv.org/abs/2509.23155
+  - type: source
+    text: Code
+    link: https://github.com/monaf-chowdhury/lagea
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1371/journal.pone.0345778
+  title: 'VLM-Nav: Mapless UAV navigation using monocular vision driven by vision-language
+    models'
+  authors:
+  - Gobinda Chandra Sarker
+  - AKM Azad
+  - Sejuti Rahman
+  - Md Mehedi Hasan
+  publisher: PLOS One
+  date: '2026-04-03'
+  link: https://doi.org/hb5qk3
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1609/aaai.v40i25.39196
+  title: 'T3Time: Tri-Modal Time Series Forecasting via Adaptive Multi-Head Alignment
+    and Residual Fusion'
+  authors:
+  - Abdul Monaf Chowdhury
+  - Rabeya Akter
+  - Safaeid Hossain Arib
+  publisher: Proceedings of the AAAI Conference on Artificial Intelligence
+  date: '2026-03-14'
+  link: https://doi.org/hb5qk9
+  image: https://monaf-chowdhury.github.io/assets/img/publication_preview/t3_time.jpg
+  plugin: sources.py
+  file: sources.yaml
+- id: url:https://arxiv.org/abs/2511.12702
+  title: 'Counting Through Occlusion: Framework for Open World Amodal Counting'
+  authors:
+  - Safaeid Hossain Arib
+  - Rabeya Akter
+  - Abdul Monaf Chowdhury
+  - Md Jubair Ahmed Sourov
+  - Md Mehedi Hasan
+  publisher: arXiv
+  date: '2026-03-07'
+  link: http://arxiv.org/abs/2511.12702
+  image: https://monaf-chowdhury.github.io/assets/img/publication_preview/countocc.jpg
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1109/ICECTE69292.2026.11429443
+  title: 'IG-CNN: An Information-Geometric Model for Automated Knee Osteoporosis Diagnosis
+    from X-ray Images'
+  authors:
+  - Mirza Afnan Islam
+  - Aniruddha Majumder
+  - Md Mehedi Hasan
+  publisher: 2026 5th International Conference on Electrical, Computer &amp;amp; Telecommunication
+    Engineering (ICECTE)
+  date: '2026-01-29'
+  link: https://doi.org/hb5qmb
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1109/ICECTE69292.2026.11429349
+  title: 'FA-EEGNet: Enhancing EEGNet with Frequency-Adaptive Kernels for the classification
+    of stroke rehabilitation movements'
+  authors:
+  - Milakul Hasana Mim
+  - Debjoty Roy Pranto
+  - Md Mehedi Hasan
+  publisher: 2026 5th International Conference on Electrical, Computer &amp;amp; Telecommunication
+    Engineering (ICECTE)
+  date: '2026-01-29'
+  link: https://doi.org/hb5qmc
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1016/j.ascom.2025.101048
+  title: 'Exploring celestial classification: Astrophysical features-guided machine
+    learning for spectral and morphological analysis'
+  authors:
+  - Md. Fairuz Siddiquee
+  - Md Mehedi Hasan
+  - Shifat E. Arman
+  - Md. Shahedul Islam
+  - AKM Azad
+  publisher: Astronomy and Computing
+  date: '2026-04-01'
+  link: https://doi.org/hb5qm4
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1016/j.atech.2025.101619
+  title: Cotton seedling monitoring and growth stage classification integrating deep
+    learning and feature engineering
+  authors:
+  - Hasan Muhammad Abdullah
+  - Muhaiminul Islam
+  - Md. Shahinul Islam
+  - Sudip Sen
+  - Abdul Kaium Tuhin
+  - Shifat E. Arman
+  - Md Mehedi Hasan
+  publisher: Smart Agricultural Technology
+  date: '2025-12-01'
+  link: https://doi.org/hb5qmd
+  image: https://ars.els-cdn.com/content/image/1-s2.0-S2772375525008500-gr001.jpg
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.21203/rs.3.rs-8157817/v1
+  title: 'Enhancing Histological Cancer Cell Detection: Integrating XAI with Deep
+    Learning for Improved Accuracy, Interpretability, and Clinical Trust'
+  authors:
+  - Apurba Roy
+  - Shamaeta Paul Gupta
+  - Muhaiminul Islam
+  - Shifat E. Arman
+  - AKM Azad
+  - Naif Alotaibi
+  - Asmaa Soliman Al-Moisheer
+  - Salem Alyami
+  - Md. Salahuddin Shah
+  - Md Mehedi Hasan
+  publisher: Springer Science and Business Media LLC
+  date: '2025-11-21'
+  link: https://doi.org/hb5qm5
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1016/j.jobe.2025.113315
+  title: Development of an IoT-driven deep learning framework for smart energy prediction
+    in commercial buildings
+  authors:
+  - Gobinda Chandra Sarker
+  - Md Mehedi Hasan
+  - Md. Rakibul Hoque
+  - Md. Khashrul Alam
+  - M. Helal Uddin Ahmed
+  publisher: Journal of Building Engineering
+  date: '2025-10-01'
+  link: https://doi.org/hb5qm8
+  plugin: sources.py
+  file: sources.yaml
+- id: url:https://arxiv.org/abs/2508.17107
+  title: 'SugarcaneShuffleNet: A Very Fast, Lightweight Convolutional Neural Network
+    for Diagnosis of 15 Sugarcane Leaf Diseases'
+  authors:
+  - Shifat E. Arman
+  - Hasan Muhammad Abdullah
+  - Syed Nazmus Sakib
+  - R. M. Saiem
+  - Shamima Nasrin Asha
+  - Md Mehedi Hasan
+  - Shahrear Bin Amin
+  - S. M. Mahin Abrar
+  publisher: arXiv
+  date: '2025-08-23'
+  link: http://arxiv.org/abs/2508.17107
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1109/ACCESS.2025.3592079
+  title: 'Design and Evaluation of ADANet: A High-Fidelity Motion Acquisition Framework
+    for Assistive Gesture-Based Interfaces'
+  authors:
+  - Md Ettashamul Haque
+  - Atique Tajwar
+  - Akm Azad
+  - Salem A. Alyami
+  - Md Mehedi Hasan
+  publisher: IEEE Access
+  date: '2025-01-01'
+  link: https://doi.org/hb5qmf
+  image: https://ieeexplore.ieee.org/mediastore/IEEE/content/media/6287639/10820123/11091288/hasan1-3592079-large.gif
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1016/j.geogeo.2025.100354
+  title: Predicting urban landslides in the hilly regions of Bangladesh leveraging
+    a hybrid machine learning model and CMIP6 climate projections
+  authors:
+  - "Md\u2024 Ashraful Islam"
+  - Musabbir Ahmed Arrafi
+  - Mehedi Hasan Peas
+  - Tanvir Hossain
+  - Md Mehedi Hasan
+  - Sanzida Murshed
+  - Monira Jahan Tania
+  publisher: Geosystems and Geoenvironment
+  date: '2025-05-01'
+  link: https://doi.org/hb5qm9
+  image: https://ars.els-cdn.com/content/image/1-s2.0-S2772883825000044-gr2.jpg
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1186/s13007-025-01366-9
+  title: 'PlantCareNet: an advanced system to recognize plant diseases with dual-mode
+    recommendations for prevention'
+  authors:
+  - Muhaiminul Islam
+  - AKM Azad
+  - Shifat E. Arman
+  - Salem A. Alyami
+  - Md Mehedi Hasan
+  publisher: Plant Methods
+  date: '2025-04-23'
+  link: https://doi.org/hb5qnd
+  image: https://media.springernature.com/lw685/springer-static/image/art%3A10.1186%2Fs13007-025-01366-9/MediaObjects/13007_2025_1366_Fig2_HTML.png
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1109/ACCESS.2024.3516586
+  title: 'U-ActionNet: Dual-Pathway Fourier Networks With Region-of-Interest Module
+    for Efficient Action Recognition in UAV Surveillance'
+  authors:
+  - Abdul Monaf Chowdhury
+  - Ahsan Imran
+  - Md Mehedi Hasan
+  - Riad Ahmed
+  - Akm Azad
+  - Salem A. Alyami
+  publisher: IEEE Access
+  date: '2024-01-01'
+  link: https://doi.org/hb5qmw
+  image: https://ieeexplore.ieee.org/ielx8/6287639/10380310/10794748/graphical_abstract/access-gagraphic-3516586.jpg
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1109/RAAICON64172.2024.10928495
+  title: Development of an Accelerometer-based Data Acquisition System for Hand Gesture
+    Recognition
+  authors:
+  - Atique Tajwar
+  - Md. Ettashamul Haque
+  - Md Mehedi Hasan
+  publisher: 2024 IEEE 3rd International Conference on Robotics, Automation, Artificial-Intelligence
+    and Internet-of-Things (RAAICON)
+  date: '2024-11-29'
+  link: https://doi.org/hb5qnc
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1109/RAAICON64172.2024.10928692
+  title: Spectral and Morphological Classification of Celestial Objects using Physics
+    Informed Machine Learning
+  authors:
+  - Md Fairuz Siddiquee
+  - Md Mehedi Hasan
+  publisher: 2024 IEEE 3rd International Conference on Robotics, Automation, Artificial-Intelligence
+    and Internet-of-Things (RAAICON)
+  date: '2024-11-29'
+  link: https://doi.org/hb5qnb
   plugin: sources.py
   file: sources.yaml

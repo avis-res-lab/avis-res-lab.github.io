@@ -1,23 +1,103 @@
-- id: doi:10.1371/journal.pcbi.1007128
-  type: paper
-  description: Lorem ipsum _dolor_ **sit amet**, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  date: 2020-12-4
-  image: https://journals.plos.org/ploscompbiol/article/figure/image?size=inline&id=info:doi/10.1371/journal.pcbi.1007128.g001&rev=2
-  buttons:
-    - type: manubot
-      link: https://greenelab.github.io/meta-review/
+- id: arxiv:2604.20983
+  description: Recently accepted to Association for Computational Linguistics (ACL 2026)
+  image: images/thinking-botanist.jpg
+  tags: 
+    - NLP
+    - Computer Vision
+  button:
     - type: source
       text: Manuscript Source
-      link: https://github.com/greenelab/meta-review
-    - type: website
-      link: http://manubot.org/
+      link: https://arxiv.org/abs/2604.20983 
+
+
+- id: arxiv:2509.23155
+  description: Recently accepted to International Conference on Machine Learning (ICML 2026)
+  image: https://monaf-chowdhury.github.io/assets/img/publication_preview/lagea.jpg 
   tags:
-    - open science
-    - collaboration
-  repo: greenelab/meta-review
+    - Embodied AI
+    - Reinforcement Learning
+    - Computer Vision
+  repo: monaf-chowdhury/lagea
+  button:
+    - type: source
+      text: Manuscript Source
+      link: https://arxiv.org/abs/2509.23155
+    - type: source
+      text: Code
+      link: https://github.com/monaf-chowdhury/lagea
 
-- id: doi:10.1016/j.csbj.2020.05.017
-  image: https://ars.els-cdn.com/content/image/1-s2.0-S2001037020302804-gr1.jpg
+- id: doi:10.1371/journal.pone.0345778
 
-- id: doi:10.7554/eLife.32822
-  image: https://iiif.elifesciences.org/lax:32822%2Felife-32822-fig8-v3.tif/full/863,/0/default.webp
+
+
+# - id: doi:10.1371/journal.pcbi.1007128
+#   type: paper
+#   description: Lorem ipsum _dolor_ **sit amet**, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+#   date: 2020-12-4
+#   image: https://journals.plos.org/ploscompbiol/article/figure/image?size=inline&id=info:doi/10.1371/journal.pcbi.1007128.g001&rev=2
+#   buttons:
+#     - type: manubot
+#       link: https://greenelab.github.io/meta-review/
+#     - type: source
+#       text: Manuscript Source
+#       link: https://github.com/greenelab/meta-review
+#     - type: website
+#       link: http://manubot.org/
+#   tags:
+#     - open science
+#     - collaboration
+#   repo: greenelab/meta-review
+
+- id: doi:10.1609/aaai.v40i25.39196
+  image: https://monaf-chowdhury.github.io/assets/img/publication_preview/t3_time.jpg
+
+- id: url:https://arxiv.org/abs/2511.12702
+  image: https://monaf-chowdhury.github.io/assets/img/publication_preview/countocc.jpg
+
+
+- id: doi:10.1109/ICECTE69292.2026.11429443
+
+
+- id: doi:10.1109/ICECTE69292.2026.11429349
+
+
+# - id: url:https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6556339
+
+
+# - id: url:https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6484120
+
+
+- id: doi:10.1016/j.ascom.2025.101048
+
+
+- id: doi:10.1016/j.atech.2025.101619
+  image: https://ars.els-cdn.com/content/image/1-s2.0-S2772375525008500-gr001.jpg
+
+- id: doi:10.21203/rs.3.rs-8157817/v1
+
+
+- id: doi:10.1016/j.jobe.2025.113315
+  
+
+- id: url:https://arxiv.org/abs/2508.17107
+
+
+- id: doi:10.1109/ACCESS.2025.3592079
+  image: https://ieeexplore.ieee.org/mediastore/IEEE/content/media/6287639/10820123/11091288/hasan1-3592079-large.gif
+
+
+
+- id: doi:10.1016/j.geogeo.2025.100354
+  image: https://ars.els-cdn.com/content/image/1-s2.0-S2772883825000044-gr2.jpg
+
+
+- id: doi:10.1186/s13007-025-01366-9
+  image: https://media.springernature.com/lw685/springer-static/image/art%3A10.1186%2Fs13007-025-01366-9/MediaObjects/13007_2025_1366_Fig2_HTML.png
+
+- id: doi:10.1109/ACCESS.2024.3516586
+  image: https://ieeexplore.ieee.org/ielx8/6287639/10380310/10794748/graphical_abstract/access-gagraphic-3516586.jpg
+
+- id: doi:10.1109/RAAICON64172.2024.10928495
+
+
+- id: doi:10.1109/RAAICON64172.2024.10928692
