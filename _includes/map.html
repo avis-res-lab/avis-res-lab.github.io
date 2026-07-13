@@ -1,0 +1,9 @@
+{{ " " }}
+<div class="map">
+  <iframe
+    src="https://www.google.com/maps?q={{ include.address | url_encode }}&output=embed"
+    loading="lazy"
+    referrerpolicy="no-referrer-when-downgrade"
+    allowfullscreen
+  ></iframe>
+</div>

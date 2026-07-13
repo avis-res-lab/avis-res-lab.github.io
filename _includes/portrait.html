@@ -1,5 +1,6 @@
 {% if include.lookup %}
-  {% assign member = site.members 
+  {% assign lookup_collection = include.collection | default: page.collection | default: "members" %}
+  {% assign member = site[lookup_collection]
     | where_exp: "member", "member.slug == include.lookup"
     | first
   %}
