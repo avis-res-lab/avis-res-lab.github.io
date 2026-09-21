@@ -27,14 +27,14 @@
   plugin: sources.py
   file: sources.yaml
 - id: arxiv:2509.23155
-  title: 'LAGEA: Language Guided Embodied Agents for Robotic Manipulation'
+  title: 'LaGEA: Language Guided Embodied Agents for Robotic Manipulation'
   authors:
   - Abdul Monaf Chowdhury
   - Akm Moshiur Rahman Mazumder
-  - Rabeya Akter
   - Safaeid Hossain Arib
+  - Rabeya Akter
   publisher: arXiv
-  date: '2026-02-04'
+  date: '2026-08-25'
   link: https://arxiv.org/abs/2509.23155
   description: Recently accepted to International Conference on Machine Learning (ICML
     2026)
