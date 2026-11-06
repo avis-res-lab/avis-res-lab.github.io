@@ -1,56 +1,136 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
-- id: arxiv:2604.20983
-  title: 'Thinking Like a Botanist: Challenging Multimodal Language Models with Intent-Driven
-    Chain-of-Inquiry'
+- id: arxiv:2609.39901
+  title: Do Better Goal Representations Improve Goal-Conditioned Reinforcement Learning?
+  authors:
+  - Syed Nazmus Sakib
+  - Abdul Monaf Chowdhury
+  - Nafiul Haque
+  - Shifat E Arman
+  - Md Mehedi Hasan
+  publisher: arXiv
+  date: '2026-09-30'
+  link: https://arxiv.org/abs/2609.39901
+  type: preprint
+  description: Shows that in offline goal-conditioned RL the agent's *state* representation,
+    not the goal representation, is the real bottleneck; simple random Fourier positional
+    encodings substantially improve performance on the hardest OGBench navigation
+    tasks.
+  image: images/goal-representations.svg
+  tags:
+  - Reinforcement Learning
+  buttons:
+  - type: preprint
+    text: arXiv
+    link: https://arxiv.org/abs/2609.39901
+  plugin: sources.py
+  file: sources.yaml
+- id: arxiv:2609.33259
+  title: 'GTRL: Grounding Divide-and-Conquer Value Learning with Temporal Differences'
+  authors:
+  - Abdul Monaf Chowdhury
+  - MD Sameer Iqbal Chowdhury
+  - Shifat E Arman
+  - Md Mehedi Hasan
+  publisher: arXiv
+  date: '2026-09-27'
+  link: https://arxiv.org/abs/2609.33259
+  type: preprint
+  description: "**GTRL (Grounded Transitive RL)** \u2014 an offline goal-conditioned\
+    \ value-learning algorithm that grounds divide-and-conquer updates with a one-step\
+    \ temporal-difference target, so every state\u2013goal pair receives an update.\
+    \ Achieves the highest average success rate across nineteen OGBench tasks spanning\
+    \ stochastic, deterministic, and stitching environments."
+  image: images/gtrl-method.jpg
+  tags:
+  - Reinforcement Learning
+  buttons:
+  - type: preprint
+    text: arXiv
+    link: https://arxiv.org/abs/2609.33259
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.2139/ssrn.7671942
+  title: 'Directional Spatial-Graph Byte Pair Encoding: Non-Neural Visual Tokenization
+    via Thermodynamic Free Energy Minimization'
+  authors:
+  - Md. Mahmudul Hasan
+  - Md Mehedi Hasan
+  publisher: SSRN Preprint
+  date: '2026-01-01'
+  link: https://doi.org/hcrdfj
+  type: preprint
+  description: A deterministic, non-neural visual tokenizer that adapts Byte Pair
+    Encoding to images by merging adjacent patches along a planar graph, with formal
+    guarantees on the resulting visual tokens.
+  tags:
+  - Computer Vision
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.2139/ssrn.7524474
+  title: 'Beyond Euclidean Attention: Information-Geometric Deep Learning for Automated
+    Bone Health Classification from Knee Radiographs'
+  authors:
+  - Mirza Afnan Islam
+  - Aniruddha Majumder
+  - Md Mehedi Hasan
+  publisher: SSRN Preprint
+  date: '2026-01-01'
+  link: https://doi.org/hcrdfk
+  type: preprint
+  tags:
+  - Medical Imaging
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.2139/ssrn.7374301
+  title: 'VLM-Driven Intelligence for Autonomous UAV Navigation: A Cross-Modal Benchmarking
+    Framework with Sim-to-Real Evaluation'
+  authors:
+  - Abyead Zarif Hassan
+  - Samiha Tarannum Noor
+  - AKM Azad
+  - Md Mehedi Hasan
+  publisher: SSRN Preprint
+  date: '2026-01-01'
+  link: https://doi.org/hcrdfm
+  type: preprint
+  description: A cross-modal UAV navigation framework that fuses monocular depth with
+    vision-language models and issues MAVLink commands. It benchmarks six VLMs in
+    simulation and flight-tests the best candidates on a Pixhawk 6C quadrotor.
+  tags:
+  - UAV
+  - Vision-Language Models
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.18653/v1/2026.findings-acl.1741
+  title: 'Thinking Like a Botanist: Challenging Multimodal Language Models with Intent
+    Driven Chain-of-Inquiry'
   authors:
   - Syed Nazmus Sakib
   - Nafiul Haque
   - Shahrear Bin Amin
   - Hasan Muhammad Abdullah
-  - Md. Mehedi Hasan
+  - Md Mehedi Hasan
   - Mohammad Zabed Hossain
   - Shifat E. Arman
-  publisher: arXiv
-  date: '2026-04-24'
-  link: https://arxiv.org/abs/2604.20983
-  description: Recently accepted to Association for Computational Linguistics (ACL
-    2026)
+  publisher: 'Findings of the Association for Computational Linguistics: ACL 2026'
+  date: '2026-04-22'
+  link: https://doi.org/hcrdfh
+  type: paper
+  description: "**Findings of ACL 2026.** Introduces *PlantInquiryVQA*, a benchmark\
+    \ of 24,950 expert-curated plant images and 138,068 question\u2013answer pairs\
+    \ for multi-step, intent-driven visual reasoning in plant disease diagnosis."
   image: images/thinking-botanist.jpg
   tags:
-  - NLP
-  - Computer Vision
-  button:
-  - type: source
-    text: Manuscript Source
+  - Vision-Language Models
+  - Plant Phenomics
+  buttons:
+  - type: paper
+    text: ACL Anthology
+    link: https://doi.org/10.18653/v1/2026.findings-acl.1741
+  - type: preprint
+    text: arXiv
     link: https://arxiv.org/abs/2604.20983
-  plugin: sources.py
-  file: sources.yaml
-- id: arxiv:2509.23155
-  title: 'LaGEA: Language Guided Embodied Agents for Robotic Manipulation'
-  authors:
-  - Abdul Monaf Chowdhury
-  - Akm Moshiur Rahman Mazumder
-  - Safaeid Hossain Arib
-  - Rabeya Akter
-  publisher: arXiv
-  date: '2026-08-25'
-  link: https://arxiv.org/abs/2509.23155
-  description: Recently accepted to International Conference on Machine Learning (ICML
-    2026)
-  image: https://monaf-chowdhury.github.io/assets/img/publication_preview/lagea.jpg
-  tags:
-  - Embodied AI
-  - Reinforcement Learning
-  - Computer Vision
-  repo: monaf-chowdhury/lagea
-  button:
-  - type: source
-    text: Manuscript Source
-    link: https://arxiv.org/abs/2509.23155
-  - type: source
-    text: Code
-    link: https://github.com/monaf-chowdhury/lagea
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.1371/journal.pone.0345778
@@ -64,33 +144,32 @@
   publisher: PLOS One
   date: '2026-04-03'
   link: https://doi.org/hb5qk3
+  type: paper
+  description: Mapless obstacle avoidance for UAVs from a single monocular camera.
+    RGB frames are converted to depth maps with DepthAnything-V2, and a vision-language
+    model reasons over them to choose the next manoeuvre.
+  image: images/vlm-nav-drone.jpg
+  tags:
+  - UAV
+  - Vision-Language Models
+  buttons:
+  - type: paper
+    text: PLOS One
+    link: https://doi.org/10.1371/journal.pone.0345778
   plugin: sources.py
   file: sources.yaml
-- id: doi:10.1609/aaai.v40i25.39196
-  title: 'T3Time: Tri-Modal Time Series Forecasting via Adaptive Multi-Head Alignment
-    and Residual Fusion'
+- id: doi:10.2139/ssrn.6556339
+  title: 'SPARK: A Stochastic Optimizer for Fast Convergence in Neural Network'
   authors:
-  - Abdul Monaf Chowdhury
-  - Rabeya Akter
-  - Safaeid Hossain Arib
-  publisher: Proceedings of the AAAI Conference on Artificial Intelligence
-  date: '2026-03-14'
-  link: https://doi.org/hb5qk9
-  image: https://monaf-chowdhury.github.io/assets/img/publication_preview/t3_time.jpg
-  plugin: sources.py
-  file: sources.yaml
-- id: url:https://arxiv.org/abs/2511.12702
-  title: 'Counting Through Occlusion: Framework for Open World Amodal Counting'
-  authors:
-  - Safaeid Hossain Arib
-  - Rabeya Akter
-  - Abdul Monaf Chowdhury
-  - Md Jubair Ahmed Sourov
+  - Md. Mahmudul Hasan
+  - AKM Azad
   - Md Mehedi Hasan
-  publisher: arXiv
-  date: '2026-03-07'
-  link: http://arxiv.org/abs/2511.12702
-  image: https://monaf-chowdhury.github.io/assets/img/publication_preview/countocc.jpg
+  publisher: SSRN Preprint
+  date: '2026-01-01'
+  link: https://doi.org/hcrdfn
+  type: preprint
+  tags:
+  - Machine Learning
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.1109/ICECTE69292.2026.11429443
@@ -100,10 +179,13 @@
   - Mirza Afnan Islam
   - Aniruddha Majumder
   - Md Mehedi Hasan
-  publisher: 2026 5th International Conference on Electrical, Computer &amp;amp; Telecommunication
+  publisher: 2026 5th International Conference on Electrical, Computer & Telecommunication
     Engineering (ICECTE)
   date: '2026-01-29'
   link: https://doi.org/hb5qmb
+  type: paper
+  tags:
+  - Medical Imaging
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.1109/ICECTE69292.2026.11429349
@@ -113,10 +195,31 @@
   - Milakul Hasana Mim
   - Debjoty Roy Pranto
   - Md Mehedi Hasan
-  publisher: 2026 5th International Conference on Electrical, Computer &amp;amp; Telecommunication
+  publisher: 2026 5th International Conference on Electrical, Computer & Telecommunication
     Engineering (ICECTE)
   date: '2026-01-29'
   link: https://doi.org/hb5qmc
+  type: paper
+  tags:
+  - Biomedical Signals
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.2139/ssrn.6484120
+  title: 'AGL Loss: Optimizing Binary Classification by Asymmetric Generalized Logarithmic
+    Loss Function with Statistical Validation'
+  authors:
+  - Md. Mahmudul Hasan
+  - Md Mehedi Hasan
+  - Shifat E Arman
+  - AKM Azad
+  publisher: SSRN Preprint
+  date: '2026-01-01'
+  link: https://doi.org/hcrdfp
+  type: preprint
+  description: Under review at *IEEE Transactions on Neural Networks and Learning
+    Systems*.
+  tags:
+  - Machine Learning
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.1016/j.ascom.2025.101048
@@ -129,8 +232,35 @@
   - Md. Shahedul Islam
   - AKM Azad
   publisher: Astronomy and Computing
-  date: '2026-04-01'
+  date: '2025-12-29'
   link: https://doi.org/hb5qm4
+  type: paper
+  tags:
+  - Machine Learning
+  plugin: sources.py
+  file: sources.yaml
+- id: arxiv:2511.12702
+  title: 'Counting Through Occlusion: Framework for Open World Amodal Counting'
+  authors:
+  - Safaeid Hossain Arib
+  - Rabeya Akter
+  - Abdul Monaf Chowdhury
+  - Md Jubair Ahmed Sourov
+  - Md Mehedi Hasan
+  publisher: arXiv
+  date: '2025-11-16'
+  link: https://arxiv.org/abs/2511.12702
+  type: preprint
+  description: "*CountOCC* \u2014 an amodal counting framework that reconstructs the\
+    \ features of occluded objects using hierarchical multimodal guidance, so objects\
+    \ hidden behind occluders are still counted."
+  image: https://monaf-chowdhury.github.io/assets/img/publication_preview/countocc.jpg
+  tags:
+  - Computer Vision
+  buttons:
+  - type: preprint
+    text: arXiv
+    link: https://arxiv.org/abs/2511.12702
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.1016/j.atech.2025.101619
@@ -147,7 +277,15 @@
   publisher: Smart Agricultural Technology
   date: '2025-12-01'
   link: https://doi.org/hb5qmd
+  type: paper
+  description: A high-throughput phenotyping framework combining *SeedlingNet*, a
+    lightweight residual CNN trained on UAV and ground-level imagery, with a biologically
+    grounded Composite Stress Index to classify cotton growth stages and flag at-risk
+    seedlings early.
   image: https://ars.els-cdn.com/content/image/1-s2.0-S2772375525008500-gr001.jpg
+  tags:
+  - Plant Phenomics
+  - Precision Agriculture
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.21203/rs.3.rs-8157817/v1
@@ -164,9 +302,15 @@
   - Salem Alyami
   - Md. Salahuddin Shah
   - Md Mehedi Hasan
-  publisher: Springer Science and Business Media LLC
+  publisher: Research Square Preprint
   date: '2025-11-21'
   link: https://doi.org/hb5qm5
+  type: preprint
+  description: An ensemble of CNNs combined with super-resolution and explainable-AI
+    methods (Grad-CAM, SHAP, LIME) for interpretable histological cancer cell detection.
+  tags:
+  - Medical Imaging
+  - Explainable AI
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.1016/j.jobe.2025.113315
@@ -181,23 +325,39 @@
   publisher: Journal of Building Engineering
   date: '2025-10-01'
   link: https://doi.org/hb5qm8
+  type: paper
+  description: An IoT-driven deep learning framework for predicting energy consumption
+    in commercial buildings.
+  tags:
+  - IoT
+  - Deep Learning
   plugin: sources.py
   file: sources.yaml
-- id: url:https://arxiv.org/abs/2508.17107
+- id: arxiv:2508.17107
   title: 'SugarcaneShuffleNet: A Very Fast, Lightweight Convolutional Neural Network
     for Diagnosis of 15 Sugarcane Leaf Diseases'
   authors:
   - Shifat E. Arman
   - Hasan Muhammad Abdullah
   - Syed Nazmus Sakib
-  - R. M. Saiem
+  - RM Saiem
   - Shamima Nasrin Asha
   - Md Mehedi Hasan
   - Shahrear Bin Amin
-  - S. M. Mahin Abrar
+  - S M Mahin Abrar
   publisher: arXiv
   date: '2025-08-23'
-  link: http://arxiv.org/abs/2508.17107
+  link: https://arxiv.org/abs/2508.17107
+  type: preprint
+  description: A curated sugarcane leaf-disease dataset from Bangladesh, a very fast
+    lightweight CNN for on-device diagnosis, and a progressive web app for field deployment.
+  tags:
+  - Plant Phenomics
+  - Precision Agriculture
+  buttons:
+  - type: preprint
+    text: arXiv
+    link: https://arxiv.org/abs/2508.17107
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.1109/ACCESS.2025.3592079
@@ -212,7 +372,25 @@
   publisher: IEEE Access
   date: '2025-01-01'
   link: https://doi.org/hb5qmf
-  image: https://ieeexplore.ieee.org/mediastore/IEEE/content/media/6287639/10820123/11091288/hasan1-3592079-large.gif
+  type: paper
+  tags:
+  - Robotics
+  - Assistive Technology
+  plugin: sources.py
+  file: sources.yaml
+- id: url:https://aisel.aisnet.org/confirm2025/14
+  title: 'Predicting Learning Styles with AI: Toward Adaptive and Personalized Education'
+  authors:
+  - Gobinda Chandra Sarker
+  - Md Mehedi Hasan
+  - Md. Rakibul Hoque
+  - M. Helal Uddin Ahmed
+  publisher: 2025 International Conference on Information Resources Management (CONF-IRM)
+  date: '2025-07-01'
+  link: https://aisel.aisnet.org/confirm2025/14
+  type: paper
+  tags:
+  - Machine Learning
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.1016/j.geogeo.2025.100354
@@ -229,7 +407,10 @@
   publisher: Geosystems and Geoenvironment
   date: '2025-05-01'
   link: https://doi.org/hb5qm9
+  type: paper
   image: https://ars.els-cdn.com/content/image/1-s2.0-S2772883825000044-gr2.jpg
+  tags:
+  - Machine Learning
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.1186/s13007-025-01366-9
@@ -244,7 +425,13 @@
   publisher: Plant Methods
   date: '2025-04-23'
   link: https://doi.org/hb5qnd
-  image: https://media.springernature.com/lw685/springer-static/image/art%3A10.1186%2Fs13007-025-01366-9/MediaObjects/13007_2025_1366_Fig2_HTML.png
+  type: paper
+  description: An end-to-end plant-disease diagnosis system that pairs a CNN classifier
+    with expert-guided, knowledge-based recommendations for prevention and treatment.
+  image: images/plantcarenet.jpg
+  tags:
+  - Plant Phenomics
+  - Precision Agriculture
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.1109/ACCESS.2024.3516586
@@ -260,7 +447,11 @@
   publisher: IEEE Access
   date: '2024-01-01'
   link: https://doi.org/hb5qmw
+  type: paper
   image: https://ieeexplore.ieee.org/ielx8/6287639/10380310/10794748/graphical_abstract/access-gagraphic-3516586.jpg
+  tags:
+  - UAV
+  - Computer Vision
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.1109/RAAICON64172.2024.10928495
@@ -274,6 +465,9 @@
     and Internet-of-Things (RAAICON)
   date: '2024-11-29'
   link: https://doi.org/hb5qnc
+  type: paper
+  tags:
+  - Assistive Technology
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.1109/RAAICON64172.2024.10928692
@@ -286,5 +480,165 @@
     and Internet-of-Things (RAAICON)
   date: '2024-11-29'
   link: https://doi.org/hb5qnb
+  type: paper
+  tags:
+  - Machine Learning
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1007/s42979-024-02922-1
+  title: 'FaceEngine: A Tracking-Based Framework for Real-Time Face Recognition in
+    Video Surveillance System'
+  authors:
+  - Ahsan Imran
+  - Riad Ahmed
+  - Md Mehedi Hasan
+  - M. Helal Uddin Ahmed
+  - A. K. M. Azad
+  - Salem A. Alyami
+  publisher: SN Computer Science
+  date: '2024-05-31'
+  link: https://doi.org/hcrdfq
+  type: paper
+  tags:
+  - Computer Vision
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1109/sti59863.2023.10465205
+  title: 'FFT-UAVNet: FFT Based Human Action Recognition for Drone Surveillance System'
+  authors:
+  - Abdul Monaf Chowdhury
+  - Ahsan Imran
+  - Md Mehedi Hasan
+  publisher: 2023 5th International Conference on Sustainable Technologies for Industry
+    5.0 (STI)
+  date: '2023-12-09'
+  link: https://doi.org/hcrdfr
+  type: paper
+  tags:
+  - UAV
+  - Computer Vision
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.3390/s23177452
+  title: An Explainable EEG-Based Human Activity Recognition Model Using Machine-Learning
+    Approach and LIME
+  authors:
+  - Iqram Hussain
+  - Rafsan Jany
+  - Richard Boyer
+  - AKM Azad
+  - Salem A. Alyami
+  - Se Jin Park
+  - Md Mehedi Hasan
+  - Md Azam Hossain
+  publisher: Sensors
+  date: '2023-08-27'
+  link: https://doi.org/hcrdfs
+  type: paper
+  tags:
+  - Biomedical Signals
+  - Explainable AI
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.3389/fpls.2023.1226190
+  title: 'WheatSpikeNet: an improved wheat spike segmentation model for accurate estimation
+    from field imaging'
+  authors:
+  - M. A. Batin
+  - Muhaiminul Islam
+  - Md Mehedi Hasan
+  - AKM Azad
+  - Salem A. Alyami
+  - Md Azam Hossain
+  - Stanley J. Miklavcic
+  publisher: Frontiers in Plant Science
+  date: '2023-08-25'
+  link: https://doi.org/hcrdft
+  type: paper
+  image: images/wheat-spike-detection.jpg
+  tags:
+  - Plant Phenomics
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1007/s10846-023-01872-9
+  title: 'Robot-Assisted Training for Children with Autism Spectrum Disorder: A Review'
+  authors:
+  - Md. Ariful Islam
+  - Md Mehedi Hasan
+  - Shamim Ahmed Deowan
+  publisher: Journal of Intelligent & Robotic Systems
+  date: '2023-06-24'
+  link: https://doi.org/gs3mz4
+  type: paper
+  tags:
+  - Robotics
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1587/transinf.2022edl8099
+  title: Blockchain-Based Pension System Ensuring Security, Provenance and Efficiency
+  authors:
+  - Minhaz KAMAL
+  - Chowdhury Mohammad ABDULLAH
+  - Fairuz SHAIARA
+  - Abu Raihan Mostofa KAMAL
+  - Md Mehedi HASAN
+  - Jik-Soo KIM
+  - Md Azam HOSSAIN
+  publisher: IEICE Transactions on Information and Systems
+  date: '2023-05-01'
+  link: https://doi.org/hcrdfv
+  type: paper
+  tags:
+  - Blockchain
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.3329/dujase.v7i2.65090
+  title: Improved Detection and Analysis of Wheat Spikes Using Multi-Stage Convolutional
+    Neural Network
+  authors:
+  - M A Batin
+  - Muhaiminul Islam
+  - Md Mehedi Hasan
+  - Stanley J Miklavcic
+  publisher: Dhaka University Journal of Applied Science and Engineering
+  date: '2023-04-04'
+  link: https://doi.org/hcrdfw
+  type: paper
+  tags:
+  - Plant Phenomics
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.3390/s23073604
+  title: Binocular Rivalry Impact on Macroblock-Loss Error Concealment for Stereoscopic
+    3D Video Transmission
+  authors:
+  - Md Mehedi Hasan
+  - Md. Azam Hossain
+  - Naif Alotaibi
+  - John F. Arnold
+  - AKM Azad
+  publisher: Sensors
+  date: '2023-03-30'
+  link: https://doi.org/hcrdfx
+  type: paper
+  tags:
+  - Video Quality
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.3390/app121910090
+  title: No-Reference Quality Assessment of Transmitted Stereoscopic Videos Based
+    on Human Visual System
+  authors:
+  - Md Mehedi Hasan
+  - Md. Ariful Islam
+  - Sejuti Rahman
+  - Michael R. Frater
+  - John F. Arnold
+  publisher: Applied Sciences
+  date: '2022-10-07'
+  link: https://doi.org/hcrdfz
+  type: paper
+  tags:
+  - Video Quality
   plugin: sources.py
   file: sources.yaml

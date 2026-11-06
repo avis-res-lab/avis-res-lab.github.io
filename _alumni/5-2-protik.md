@@ -1,19 +1,18 @@
 ---
-name: Protik Barua 
+name: Protik Barua
 image: images/protik-alumni.jpg
+description: PhD Student
 role: alum
-affiliation: University of North Carolina, Charlotte
+affiliation: University of North Carolina at Charlotte
 links:
-  homepage: https://sites.google.com/mte.wub.edu.bd/protikbarua/about 
+  home-page: https://sites.google.com/mte.wub.edu.bd/protikbarua/about
   google-scholar: KOL3xX0AAAAJ
+---
+
+Protik Barua is a PhD student and Graduate Research Assistant in Construction and Engineering Management at the [University of North Carolina at Charlotte](https://www.charlotte.edu/). His doctoral research applies artificial intelligence to structural health monitoring.
+
+He completed his **M.Sc.** at the University of Dhaka in the **AVIS Lab**, under the supervision of Dr. Md Mehedi Hasan and co-supervision of Dr. Lafifa Jamal. His thesis, *Developing a Cardiovascular Digital Twin: An Inverse Analysis Approach to Personalized Circulatory Modeling*, used inverse analysis, computational fluid dynamics (CFD), and simulation-driven methods. It aimed to build patient-specific cardiovascular models for analysing, predicting, and managing cardiovascular disease. Before that, Protik earned his **B.Sc.** in Mechatronics Engineering from CUET.
 
 ---
 
-Protik Barua is currently pursuing PhD in Construction and Engineering management at [University of North Carolina at Charlotte](https://www.charlotte.edu/) as a graduate research assistant. His PhD research topic is structural health monitoring using artificial intelligence. 
-
-Protik completed his **M.Sc** in cardiovascular digital twins, focusing on personalized circulatory modeling through inverse analysis, computational fluid dynamics (CFD) and simulation driven approaches under the guidance of *Dr. Md Mehedi Hasan* in **AVIS Lab**. His research aimed to develop patient specific cardiovascular models for the analysis, prediction and management of cardiovascular diseases. Prior to this, Protik completed his *BSC* in Mechatronics Engineering **CUET**.
-
----
-
-**Research interest:** Digital Twins, Machine Learning AI-driven Healthcare Technologies, with a focus on mechatronics system and Structural health monitoring. 
-
+**Research interests:** Digital twins, machine learning, AI-driven healthcare technology, mechatronic systems, and structural health monitoring.

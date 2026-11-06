@@ -1,6 +1,7 @@
 ---
 name: Rifat Khan
 image: images/rifat-alumni.jpg
+description: AI Application Developer
 role: alum
 affiliation: ACI PLC
 links:
@@ -8,11 +9,10 @@ links:
   github: rifatkhan512
 ---
 
+Rifat Khan is an AI Application Developer at [ACI PLC](https://www.aci-bd.com/), where he builds and maintains AI-enabled applications for business users.
 
-Currently working as AI Application Developer at [ACI PLC](https://www.aci-bd.com/). He is currently working on building and maintaining AI-enabled applications for business users. 
-
-Before this he completed his BSc and MSc from the University of Dhaka in the Department of Robotics and Mechatronics Engineering. He was a research assistant at the **AVIS Lab** under the supervision of Dr. Md. Mehedi Hasan.
+He completed both his B.Sc. and M.Sc. in Robotics and Mechatronics Engineering at the University of Dhaka. He was a Research Assistant at the **AVIS Lab** under the supervision of Dr. Md Mehedi Hasan. His MSc thesis, *AgriGPT: A Visual and Generative AI based approach for plant health monitoring*, applied vision and generative AI to agriculture.
 
 ---
 
-**Research Interests:** Human-Robot Interaction (HRI), Human-AI Interaction, AI in Robotics Industrial Automation, Smart Manufacturing, Agentic Learning, Multi-agent systems, AI Security, Trust and safety in Agentic AI
+**Research interests:** Human-robot interaction (HRI), human-AI interaction, AI for robotics and industrial automation, smart manufacturing, agentic and multi-agent systems, AI security, and trust and safety in agentic AI.

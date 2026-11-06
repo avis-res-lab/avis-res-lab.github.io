@@ -1,103 +1,281 @@
-- id: arxiv:2604.20983
-  description: Recently accepted to Association for Computational Linguistics (ACL 2026)
-  image: images/thinking-botanist.jpg
-  tags: 
-    - NLP
-    - Computer Vision
-  button:
-    - type: source
-      text: Manuscript Source
-      link: https://arxiv.org/abs/2604.20983 
+# Publications of Dr. Md Mehedi Hasan (AVIS Lab), 2022 – present.
+# Source list: https://scholar.google.com/citations?user=jGC1OfgAAAAJ&view_op=list_works&sortby=pubdate
+#
+# Each `id` is resolved by Manubot (see _cite/cite.py) into _data/citations.yaml.
+# Any field written here (title, publisher, date, description, image, ...) overrides
+# what Manubot returns. Every `id` MUST be resolvable by Manubot, otherwise the
+# "update-citations" GitHub Action fails and the site is not rebuilt. Entries
+# without an `id` are used as-is.
 
+# ---------------------------------------------------------------------------
+# 2026
+# ---------------------------------------------------------------------------
 
-- id: arxiv:2509.23155
-  description: Recently accepted to International Conference on Machine Learning (ICML 2026)
-  image: https://monaf-chowdhury.github.io/assets/img/publication_preview/lagea.jpg 
+- id: arxiv:2609.39901
+  type: preprint
+  date: 2026-09-30
+  description: Shows that in offline goal-conditioned RL the agent's *state* representation, not the goal representation, is the real bottleneck; simple random Fourier positional encodings substantially improve performance on the hardest OGBench navigation tasks.
+  image: images/goal-representations.svg
   tags:
-    - Embodied AI
     - Reinforcement Learning
+  buttons:
+    - type: preprint
+      text: arXiv
+      link: https://arxiv.org/abs/2609.39901
+
+- id: arxiv:2609.33259
+  type: preprint
+  date: 2026-09-27
+  description: "**GTRL (Grounded Transitive RL)** — an offline goal-conditioned value-learning algorithm that grounds divide-and-conquer updates with a one-step temporal-difference target, so every state–goal pair receives an update. Achieves the highest average success rate across nineteen OGBench tasks spanning stochastic, deterministic, and stitching environments."
+  image: images/gtrl-method.jpg
+  tags:
+    - Reinforcement Learning
+  buttons:
+    - type: preprint
+      text: arXiv
+      link: https://arxiv.org/abs/2609.33259
+
+- id: doi:10.2139/ssrn.7671942
+  type: preprint
+  publisher: SSRN Preprint
+  description: A deterministic, non-neural visual tokenizer that adapts Byte Pair Encoding to images by merging adjacent patches along a planar graph, with formal guarantees on the resulting visual tokens.
+  tags:
     - Computer Vision
-  repo: monaf-chowdhury/lagea
-  button:
-    - type: source
-      text: Manuscript Source
-      link: https://arxiv.org/abs/2509.23155
-    - type: source
-      text: Code
-      link: https://github.com/monaf-chowdhury/lagea
+
+- id: doi:10.2139/ssrn.7524474
+  type: preprint
+  publisher: SSRN Preprint
+  tags:
+    - Medical Imaging
+
+- id: doi:10.2139/ssrn.7374301
+  type: preprint
+  publisher: SSRN Preprint
+  description: A cross-modal UAV navigation framework that fuses monocular depth with vision-language models and issues MAVLink commands. It benchmarks six VLMs in simulation and flight-tests the best candidates on a Pixhawk 6C quadrotor.
+  tags:
+    - UAV
+    - Vision-Language Models
+
+- id: doi:10.18653/v1/2026.findings-acl.1741
+  type: paper
+  date: 2026-04-22
+  description: "**Findings of ACL 2026.** Introduces *PlantInquiryVQA*, a benchmark of 24,950 expert-curated plant images and 138,068 question–answer pairs for multi-step, intent-driven visual reasoning in plant disease diagnosis."
+  image: images/thinking-botanist.jpg
+  tags:
+    - Vision-Language Models
+    - Plant Phenomics
+  buttons:
+    - type: paper
+      text: ACL Anthology
+      link: https://doi.org/10.18653/v1/2026.findings-acl.1741
+    - type: preprint
+      text: arXiv
+      link: https://arxiv.org/abs/2604.20983
 
 - id: doi:10.1371/journal.pone.0345778
+  type: paper
+  description: Mapless obstacle avoidance for UAVs from a single monocular camera. RGB frames are converted to depth maps with DepthAnything-V2, and a vision-language model reasons over them to choose the next manoeuvre.
+  image: images/vlm-nav-drone.jpg
+  tags:
+    - UAV
+    - Vision-Language Models
+  buttons:
+    - type: paper
+      text: PLOS One
+      link: https://doi.org/10.1371/journal.pone.0345778
 
-
-
-# - id: doi:10.1371/journal.pcbi.1007128
-#   type: paper
-#   description: Lorem ipsum _dolor_ **sit amet**, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-#   date: 2020-12-4
-#   image: https://journals.plos.org/ploscompbiol/article/figure/image?size=inline&id=info:doi/10.1371/journal.pcbi.1007128.g001&rev=2
-#   buttons:
-#     - type: manubot
-#       link: https://greenelab.github.io/meta-review/
-#     - type: source
-#       text: Manuscript Source
-#       link: https://github.com/greenelab/meta-review
-#     - type: website
-#       link: http://manubot.org/
-#   tags:
-#     - open science
-#     - collaboration
-#   repo: greenelab/meta-review
-
-- id: doi:10.1609/aaai.v40i25.39196
-  image: https://monaf-chowdhury.github.io/assets/img/publication_preview/t3_time.jpg
-
-- id: url:https://arxiv.org/abs/2511.12702
-  image: https://monaf-chowdhury.github.io/assets/img/publication_preview/countocc.jpg
-
+- id: doi:10.2139/ssrn.6556339
+  type: preprint
+  publisher: SSRN Preprint
+  tags:
+    - Machine Learning
 
 - id: doi:10.1109/ICECTE69292.2026.11429443
-
+  type: paper
+  publisher: 2026 5th International Conference on Electrical, Computer & Telecommunication Engineering (ICECTE)
+  tags:
+    - Medical Imaging
 
 - id: doi:10.1109/ICECTE69292.2026.11429349
+  type: paper
+  publisher: 2026 5th International Conference on Electrical, Computer & Telecommunication Engineering (ICECTE)
+  tags:
+    - Biomedical Signals
 
+- id: doi:10.2139/ssrn.6484120
+  type: preprint
+  publisher: SSRN Preprint
+  description: Under review at *IEEE Transactions on Neural Networks and Learning Systems*.
+  tags:
+    - Machine Learning
 
-# - id: url:https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6556339
-
-
-# - id: url:https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6484120
-
+# ---------------------------------------------------------------------------
+# 2025
+# ---------------------------------------------------------------------------
 
 - id: doi:10.1016/j.ascom.2025.101048
+  type: paper
+  date: 2025-12-29
+  tags:
+    - Machine Learning
 
+- id: arxiv:2511.12702
+  type: preprint
+  date: 2025-11-16
+  description: "*CountOCC* — an amodal counting framework that reconstructs the features of occluded objects using hierarchical multimodal guidance, so objects hidden behind occluders are still counted."
+  image: https://monaf-chowdhury.github.io/assets/img/publication_preview/countocc.jpg
+  tags:
+    - Computer Vision
+  buttons:
+    - type: preprint
+      text: arXiv
+      link: https://arxiv.org/abs/2511.12702
 
 - id: doi:10.1016/j.atech.2025.101619
+  type: paper
+  description: A high-throughput phenotyping framework combining *SeedlingNet*, a lightweight residual CNN trained on UAV and ground-level imagery, with a biologically grounded Composite Stress Index to classify cotton growth stages and flag at-risk seedlings early.
   image: https://ars.els-cdn.com/content/image/1-s2.0-S2772375525008500-gr001.jpg
+  tags:
+    - Plant Phenomics
+    - Precision Agriculture
 
 - id: doi:10.21203/rs.3.rs-8157817/v1
-
+  type: preprint
+  publisher: Research Square Preprint
+  description: An ensemble of CNNs combined with super-resolution and explainable-AI methods (Grad-CAM, SHAP, LIME) for interpretable histological cancer cell detection.
+  tags:
+    - Medical Imaging
+    - Explainable AI
 
 - id: doi:10.1016/j.jobe.2025.113315
-  
+  type: paper
+  description: An IoT-driven deep learning framework for predicting energy consumption in commercial buildings.
+  tags:
+    - IoT
+    - Deep Learning
 
-- id: url:https://arxiv.org/abs/2508.17107
-
+- id: arxiv:2508.17107
+  type: preprint
+  date: 2025-08-23
+  description: A curated sugarcane leaf-disease dataset from Bangladesh, a very fast lightweight CNN for on-device diagnosis, and a progressive web app for field deployment.
+  tags:
+    - Plant Phenomics
+    - Precision Agriculture
+  buttons:
+    - type: preprint
+      text: arXiv
+      link: https://arxiv.org/abs/2508.17107
 
 - id: doi:10.1109/ACCESS.2025.3592079
-  image: https://ieeexplore.ieee.org/mediastore/IEEE/content/media/6287639/10820123/11091288/hasan1-3592079-large.gif
+  type: paper
+  tags:
+    - Robotics
+    - Assistive Technology
 
-
+# No DOI; cited via its AIS eLibrary URL. Title/authors/venue overridden for clean formatting.
+- id: url:https://aisel.aisnet.org/confirm2025/14
+  title: "Predicting Learning Styles with AI: Toward Adaptive and Personalized Education"
+  type: paper
+  authors:
+    - Gobinda Chandra Sarker
+    - Md Mehedi Hasan
+    - Md. Rakibul Hoque
+    - M. Helal Uddin Ahmed
+  publisher: 2025 International Conference on Information Resources Management (CONF-IRM)
+  date: 2025-07-01
+  link: https://aisel.aisnet.org/confirm2025/14
+  tags:
+    - Machine Learning
 
 - id: doi:10.1016/j.geogeo.2025.100354
+  type: paper
   image: https://ars.els-cdn.com/content/image/1-s2.0-S2772883825000044-gr2.jpg
-
+  tags:
+    - Machine Learning
 
 - id: doi:10.1186/s13007-025-01366-9
-  image: https://media.springernature.com/lw685/springer-static/image/art%3A10.1186%2Fs13007-025-01366-9/MediaObjects/13007_2025_1366_Fig2_HTML.png
+  type: paper
+  description: An end-to-end plant-disease diagnosis system that pairs a CNN classifier with expert-guided, knowledge-based recommendations for prevention and treatment.
+  image: images/plantcarenet.jpg
+  tags:
+    - Plant Phenomics
+    - Precision Agriculture
+
+# ---------------------------------------------------------------------------
+# 2024
+# ---------------------------------------------------------------------------
 
 - id: doi:10.1109/ACCESS.2024.3516586
+  type: paper
   image: https://ieeexplore.ieee.org/ielx8/6287639/10380310/10794748/graphical_abstract/access-gagraphic-3516586.jpg
+  tags:
+    - UAV
+    - Computer Vision
 
 - id: doi:10.1109/RAAICON64172.2024.10928495
-
+  type: paper
+  tags:
+    - Assistive Technology
 
 - id: doi:10.1109/RAAICON64172.2024.10928692
+  type: paper
+  tags:
+    - Machine Learning
+
+- id: doi:10.1007/s42979-024-02922-1
+  type: paper
+  tags:
+    - Computer Vision
+
+# ---------------------------------------------------------------------------
+# 2023
+# ---------------------------------------------------------------------------
+
+- id: doi:10.1109/sti59863.2023.10465205
+  type: paper
+  tags:
+    - UAV
+    - Computer Vision
+
+- id: doi:10.3390/s23177452
+  type: paper
+  tags:
+    - Biomedical Signals
+    - Explainable AI
+
+- id: doi:10.3389/fpls.2023.1226190
+  type: paper
+  image: images/wheat-spike-detection.jpg
+  tags:
+    - Plant Phenomics
+
+- id: doi:10.1007/s10846-023-01872-9
+  type: paper
+  publisher: Journal of Intelligent & Robotic Systems
+  tags:
+    - Robotics
+
+- id: doi:10.1587/transinf.2022edl8099
+  type: paper
+  tags:
+    - Blockchain
+
+- id: doi:10.3329/dujase.v7i2.65090
+  type: paper
+  title: Improved Detection and Analysis of Wheat Spikes Using Multi-Stage Convolutional Neural Network
+  tags:
+    - Plant Phenomics
+
+- id: doi:10.3390/s23073604
+  type: paper
+  tags:
+    - Video Quality
+
+# ---------------------------------------------------------------------------
+# 2022
+# ---------------------------------------------------------------------------
+
+- id: doi:10.3390/app121910090
+  type: paper
+  tags:
+    - Video Quality

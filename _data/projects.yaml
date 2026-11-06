@@ -1,47 +1,78 @@
-- title: Cool Dataset
-  subtitle: a subtitle
+# Funded projects and active research lines of the AVIS Lab.
+# Source: Dr. Md Mehedi Hasan's University of Dhaka faculty profile
+# (https://www.du.ac.bd/body/faculty_details/RME/4706) and the lab's publications.
+# `group: featured` = currently running; no group = completed.
+# Each `link` points to the matching post on the Blog page.
+
+- title: PlantPhenoBot
+  subtitle: UGC–DU grant · 2026 – present
   group: featured
-  image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
+  image: images/field-phenotyping-platform.jpg
+  link: 2026/05/07/plantphenobot.html
+  description: Robotics for high-throughput plant phenotyping, in collaboration with Gazipur Agricultural University.
   tags:
-    - resource
+    - ongoing
+    - robotics
+    - plant phenomics
 
-- title: Cool Package
-  subtitle: a subtitle
+- title: Explainable AI for Histological Cancer Detection
+  subtitle: MOST · 2025 – present
   group: featured
-  image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
+  link: 2025/10/19/explainable-ai-histology.html
+  description: Accurate and interpretable deep-learning models for microscopic tissue images (Grad-CAM, SHAP, LIME), with Bangladesh Medical University.
   tags:
-    - resource
+    - ongoing
+    - medical ai
 
-- title: Cool Tutorial
-  subtitle: a subtitle
-  image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
+- title: Offline Goal-Conditioned RL
+  subtitle: Research line · 2026
+  group: featured
+  image: images/gtrl-method.jpg
+  link: 2026/09/30/offline-goal-conditioned-rl.html
+  description: Long-horizon, goal-reaching agents learned purely from logged data, including GTRL and a study of goal versus state representations.
   tags:
-    - resource
-    - publication
+    - ongoing
+    - reinforcement learning
 
-- title: Cool Web App
-  subtitle: a subtitle
-  image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
+- title: VLM-Driven UAV Navigation
+  subtitle: Research line · 2024 – present
+  group: featured
+  image: images/uav-simulation-town.jpg
+  link: 2026/04/03/vlm-driven-uav-navigation.html
+  description: Mapless drone navigation from a single camera using depth estimation and vision-language models, from simulation to a real Pixhawk quadrotor.
   tags:
-    - software
+    - ongoing
+    - uav
 
-- title: Cool Web Server
-  subtitle: a subtitle
-  image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
+- title: Inter-University Robotics & Hackathon
+  subtitle: ICT · 2024 – 2025
+  link: 2024/05/01/inter-university-robotics-hackathon.html
+  description: An ICT-funded inter-university robotics and hackathon competition.
   tags:
-    - software
+    - completed
+    - outreach
+
+- title: SmartPDE
+  subtitle: UGC · 2023 – 2024
+  image: images/plantcarenet.jpg
+  link: 2023/11/01/smartpde.html
+  description: Deep-learning-based plant disease epidemiology and forecasting for smart agriculture.
+  tags:
+    - completed
+    - plant phenomics
+
+- title: IHABOT2
+  subtitle: UGC · 2023 – 2024
+  link: 2023/07/01/ihabot2.html
+  description: A teleoperated, intelligent hospital-assistance robot to help fight contagion.
+  tags:
+    - completed
+    - robotics
+
+- title: Neurodegenerative Disease Diagnosis
+  subtitle: MOST · 2022 – 2023
+  link: 2022/01/25/neurodegenerative-disease-image-memorability.html
+  description: Deep-learning-driven automated diagnosis of neurodegenerative diseases using image memorability.
+  tags:
+    - completed
+    - medical ai

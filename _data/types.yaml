@@ -34,6 +34,10 @@ alum:
   icon: fa-solid fa-building-columns
   description: Alumnus
 
+collaborator:
+  icon: fa-solid fa-handshake
+  description: Collaborator
+
 # general
 
 link:

@@ -19,6 +19,6 @@ Alongside his academic research, he works as a part-time ML/AI Engineer at [Noet
 
 ---
 
-**Research Interests:** Robotics, embedded systems, AI, and hardware-software co-design. Atiq designs and develops robotic systems, PCB hardware, and embedded electronics, with a particular interest in bio-inspired robotics, intelligent manipulation, and VLSI design. He also has working knowledge of digital hardware design using Verilog.
+**Research Interests:** Robotics, embedded systems, AI, and hardware-software co-design. Atique designs and develops robotic systems, PCB hardware, and embedded electronics, with a particular interest in bio-inspired robotics, intelligent manipulation, and VLSI design. He also has working knowledge of digital hardware design using Verilog.
 
 
