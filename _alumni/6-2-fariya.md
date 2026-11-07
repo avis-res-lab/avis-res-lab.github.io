@@ -1,6 +1,6 @@
 ---
 name: Rabeya Akter Fariya
-image: images/rabeya-collab.jpg
+image: images/rabeya-collab.png
 description: Research Assistant
 role: collaborator
 affiliation: North South University
