@@ -1,0 +1,954 @@
+<!DOCTYPE html>
+<html lang="en" data-dark="false">
+  <head>
+  <!--
+  put your analytics (e.g. Google Analytics) tracking code here
+-->
+
+  <!--
+  put your search engine verification (e.g. Google Search Console) tag here
+-->
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Flying with one camera: vision-language models for UAV navigation | Advanced Vision & Intelligent Systems (AVIS) Research Lab</title>
+
+<link rel="icon" href="/images/avis-logo.jpeg">
+
+<meta name="title" content="Flying with one camera: vision-language models for UAV navigation">
+<meta name="description" content="AVIS Research Group (Advanced Vision &amp; Intelligent Systems Research Group) focuses on Computer Vision and AI-driven intelligent systems">
+
+<meta property="og:title" content="Flying with one camera: vision-language models for UAV navigation">
+<meta property="og:site_title" content="Advanced Vision &amp; Intelligent Systems (AVIS) Research Lab">
+<meta property="og:description" content="AVIS Research Group (Advanced Vision &amp; Intelligent Systems Research Group) focuses on Computer Vision and AI-driven intelligent systems">
+<meta property="og:url" content="https://avis-res-lab.github.io">
+<meta property="og:image" content="https://avis-res-lab.github.io/images/avis-logo.jpeg">
+<meta property="og:locale" content="en_US">
+
+<meta property="twitter:title" content="Flying with one camera: vision-language models for UAV navigation">
+<meta property="twitter:description" content="AVIS Research Group (Advanced Vision &amp; Intelligent Systems Research Group) focuses on Computer Vision and AI-driven intelligent systems">
+<meta property="twitter:url" content="https://avis-res-lab.github.io">
+<meta property="twitter:card" content="summary_large_image">
+<meta property="twitter:image" content="https://avis-res-lab.github.io/images/avis-logo.jpeg">
+
+
+  <meta property="og:type" content="website">
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "WebSite",
+    
+    "name": "Flying with one camera: vision-language models for UAV navigation",
+    "description": "AVIS Research Group (Advanced Vision &amp; Intelligent Systems Research Group) focuses on Computer Vision and AI-driven intelligent systems",
+    "headline": "Flying with one camera: vision-language models for UAV navigation",
+    "publisher": {
+      "@type": "Organization",
+      "logo": { "@type": "ImageObject", "url": "/images/avis-logo.jpeg" }
+    },
+    "url": "https://avis-res-lab.github.io"
+  }
+</script>
+
+<link rel="alternate" type="application/rss+xml" href="https://avis-res-lab.github.io/feed.xml">
+
+  <!-- Google Fonts -->
+<!-- automatically get url from fonts used in theme file -->
+
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?display=swap&&family=Barlow:ital,wght@0,200;0,400;0,500;0,600;1,200;1,400;1,500;1,600&family=Roboto+Mono:ital,wght@0,200;0,400;0,500;0,600;1,200;1,400;1,500;1,600" rel="stylesheet">
+
+<!-- Font Awesome icons (load asynchronously due to size) -->
+
+<link
+  href="https://use.fontawesome.com/releases/v6.7.0/css/all.css"
+  rel="stylesheet"
+  media="none"
+  onload="this.removeAttribute('media'); this.onload = null;"
+/>
+<noscript>
+  <link href="https://use.fontawesome.com/releases/v6.7.0/css/all.css" rel="stylesheet">
+</noscript>
+
+  <!-- third party styles -->
+<!-- https://stylishthemes.github.io/Syntax-Themes/pygments/ -->
+<link 
+  href="https://cdn.jsdelivr.net/gh/StylishThemes/Syntax-Themes/pygments/css-github/pygments-tomorrow-night-eighties.css"
+  rel="stylesheet"
+/>
+
+<!-- include all sass in styles folder -->
+
+
+  
+    <link
+      href="/_styles/-theme.css"
+      rel="stylesheet"
+    />
+  
+
+  
+    <link
+      href="/_styles/alert.css"
+      rel="stylesheet"
+    />
+  
+
+  
+    <link
+      href="/_styles/all.css"
+      rel="stylesheet"
+    />
+  
+
+  
+    <link
+      href="/_styles/anchor.css"
+      rel="stylesheet"
+    />
+  
+
+  
+    <link
+      href="/_styles/background.css"
+      rel="stylesheet"
+    />
+  
+
+  
+    <link
+      href="/_styles/body.css"
+      rel="stylesheet"
+    />
+  
+
+  
+    <link
+      href="/_styles/bold.css"
+      rel="stylesheet"
+    />
+  
+
+  
+    <link
+      href="/_styles/button.css"
+      rel="stylesheet"
+    />
+  
+
+  
+    <link
+      href="/_styles/card.css"
+      rel="stylesheet"
+    />
+  
+
+  
+    <link
+      href="/_styles/checkbox.css"
+      rel="stylesheet"
+    />
+  
+
+  
+    <link
+      href="/_styles/citation.css"
+      rel="stylesheet"
+    />
+  
+
+  
+    <link
+      href="/_styles/code.css"
+      rel="stylesheet"
+    />
+  
+
+  
+    <link
+      href="/_styles/cols.css"
+      rel="stylesheet"
+    />
+  
+
+  
+    <link
+      href="/_styles/dark-toggle.css"
+      rel="stylesheet"
+    />
+  
+
+  
+    <link
+      href="/_styles/details.css"
+      rel="stylesheet"
+    />
+  
+
+  
+    <link
+      href="/_styles/feature.css"
+      rel="stylesheet"
+    />
+  
+
+  
+    <link
+      href="/_styles/figure.css"
+      rel="stylesheet"
+    />
+  
+
+  
+    <link
+      href="/_styles/float.css"
+      rel="stylesheet"
+    />
+  
+
+  
+    <link
+      href="/_styles/font.css"
+      rel="stylesheet"
+    />
+  
+
+  
+    <link
+      href="/_styles/footer.css"
+      rel="stylesheet"
+    />
+  
+
+  
+    <link
+      href="/_styles/form.css"
+      rel="stylesheet"
+    />
+  
+
+  
+    <link
+      href="/_styles/grid.css"
+      rel="stylesheet"
+    />
+  
+
+  
+    <link
+      href="/_styles/header.css"
+      rel="stylesheet"
+    />
+  
+
+  
+    <link
+      href="/_styles/heading.css"
+      rel="stylesheet"
+    />
+  
+
+  
+    <link
+      href="/_styles/highlight.css"
+      rel="stylesheet"
+    />
+  
+
+  
+    <link
+      href="/_styles/icon.css"
+      rel="stylesheet"
+    />
+  
+
+  
+    <link
+      href="/_styles/image.css"
+      rel="stylesheet"
+    />
+  
+
+  
+    <link
+      href="/_styles/link.css"
+      rel="stylesheet"
+    />
+  
+
+  
+    <link
+      href="/_styles/list.css"
+      rel="stylesheet"
+    />
+  
+
+  
+    <link
+      href="/_styles/main.css"
+      rel="stylesheet"
+    />
+  
+
+  
+    <link
+      href="/_styles/map.css"
+      rel="stylesheet"
+    />
+  
+
+  
+    <link
+      href="/_styles/paragraph.css"
+      rel="stylesheet"
+    />
+  
+
+  
+    <link
+      href="/_styles/portrait.css"
+      rel="stylesheet"
+    />
+  
+
+  
+    <link
+      href="/_styles/post-excerpt.css"
+      rel="stylesheet"
+    />
+  
+
+  
+    <link
+      href="/_styles/post-info.css"
+      rel="stylesheet"
+    />
+  
+
+  
+    <link
+      href="/_styles/post-nav.css"
+      rel="stylesheet"
+    />
+  
+
+  
+    <link
+      href="/_styles/quote.css"
+      rel="stylesheet"
+    />
+  
+
+  
+    <link
+      href="/_styles/rule.css"
+      rel="stylesheet"
+    />
+  
+
+  
+    <link
+      href="/_styles/search-box.css"
+      rel="stylesheet"
+    />
+  
+
+  
+    <link
+      href="/_styles/search-info.css"
+      rel="stylesheet"
+    />
+  
+
+  
+    <link
+      href="/_styles/section.css"
+      rel="stylesheet"
+    />
+  
+
+  
+    <link
+      href="/_styles/table.css"
+      rel="stylesheet"
+    />
+  
+
+  
+    <link
+      href="/_styles/tags.css"
+      rel="stylesheet"
+    />
+  
+
+  
+    <link
+      href="/_styles/textbox.css"
+      rel="stylesheet"
+    />
+  
+
+  
+    <link
+      href="/_styles/tooltip.css"
+      rel="stylesheet"
+    />
+  
+
+  
+    <link
+      href="/_styles/util.css"
+      rel="stylesheet"
+    />
+  
+
+
+<!-- include all css in styles folder -->
+
+
+
+  <!-- third party scripts -->
+<script src="https://unpkg.com/@popperjs/core@2" defer></script>
+<script src="https://unpkg.com/tippy.js@6" defer></script>
+<script src="https://unpkg.com/mark.js@8" defer></script>
+
+<!-- include all js in scripts folder -->
+
+
+  <script src="/_scripts/anchors.js"></script>
+
+  <script src="/_scripts/dark-mode.js"></script>
+
+  <script src="/_scripts/fetch-tags.js"></script>
+
+  <script src="/_scripts/search.js"></script>
+
+  <script src="/_scripts/site-search.js"></script>
+
+  <script src="/_scripts/table-wrap.js"></script>
+
+  <script src="/_scripts/tooltip.js"></script>
+
+
+</head>
+
+  <body>
+    
+
+
+
+
+<header
+  class="background"
+  style="--image: url('/images/background.jpg')"
+  
+    data-dark="true"
+  
+  
+>
+  <a href="/" class="home">
+    
+  <span class="logo">
+    <img src="/images/avis-logo.jpeg" alt="AVIS Research Lab logo">
+  </span>
+
+    
+      <span class="title-text" data-tooltip="Home">
+        
+          <span class="title">Advanced Vision & Intelligent Systems (AVIS) Research Lab</span>
+        
+        
+      </span>
+    
+  </a>
+
+  <input class="nav-toggle" type="checkbox" aria-label="show/hide nav">
+
+  <nav>
+    
+    
+      
+        <a
+          href="/research/"
+          data-tooltip="Research areas and highlighted work"
+        >
+          Research
+        </a>
+      
+    
+      
+        <a
+          href="/publications/"
+          data-tooltip="Every paper, year by year"
+        >
+          Publications
+        </a>
+      
+    
+      
+        <a
+          href="/projects/"
+          data-tooltip="Funded projects and research lines"
+        >
+          Projects
+        </a>
+      
+    
+      
+        <a
+          href="/team/"
+          data-tooltip="About our team"
+        >
+          Team
+        </a>
+      
+    
+      
+        <a
+          href="/blog/"
+          data-tooltip="Projects, papers, and lab news"
+        >
+          Blog
+        </a>
+      
+    
+      
+        <a
+          href="/contact/"
+          data-tooltip="Email, address, and location"
+        >
+          Join Us
+        </a>
+      
+    
+  </nav>
+</header>
+
+    <main>
+      <!--
+  modify main content of page:
+  - add section breaks
+  - attach section properties
+  - filter out blank sections
+-->
+
+
+
+
+
+
+  
+  
+  
+
+  <section
+    class="background"
+    data-size="1"
+    
+    
+      style="--image: url('/images/uav-simulation-town.jpg')"
+    
+  >
+    <!--
+  <background>images/uav-simulation-town.jpg</background>
+  <dark></dark>
+  <size>1</size>
+-->
+
+
+<h1 class="center">Flying with one camera: vision-language models for UAV navigation</h1>
+
+<div class="post-info">
+  
+
+  
+  
+
+  
+    <span data-tooltip="Originally published on">
+      <i class="icon fa-regular fa-calendar"></i>
+      <span>April 03, 2026</span>
+    </span>
+  
+
+  
+</div>
+
+
+  
+
+
+  <div
+    class="tags"
+    
+  >
+    
+      <a
+        href="/blog?search=&quot;tag: ongoing&quot;"
+        class="tag"
+        data-tooltip="Show items with the tag &quot;ongoing&quot;"
+      >
+        ongoing
+      </a>
+    
+      <a
+        href="/blog?search=&quot;tag: uav&quot;"
+        class="tag"
+        data-tooltip="Show items with the tag &quot;uav&quot;"
+      >
+        uav
+      </a>
+    
+      <a
+        href="/blog?search=&quot;tag: vision-language-models&quot;"
+        class="tag"
+        data-tooltip="Show items with the tag &quot;vision-language-models&quot;"
+      >
+        vision-language-models
+      </a>
+    
+  </div>
+  </section>
+
+  
+  
+  
+
+  <section
+    class="background"
+    data-size="page"
+    
+    
+  >
+    <!--
+  <background></background>
+  <dark></dark>
+  <size></size>
+-->
+
+
+<p>Most autonomous drones avoid obstacles with expensive sensors, a prebuilt map, or both.
+Our UAV research asks how far a drone can get with a <strong>single monocular camera</strong> and a <strong>vision-language model (VLM)</strong> that reasons about what it sees.
+The first answer, <strong>VLM-Nav</strong>, was published in <em>PLOS One</em> in April 2026. A sim-to-real follow-up is now available as a preprint.</p>
+
+<p><strong>At a glance</strong></p>
+
+<ul>
+  <li><strong>Status:</strong> Ongoing research</li>
+  <li><strong>Area:</strong> Autonomous UAVs, vision-language models</li>
+  <li><strong>Papers:</strong> <a href="https://doi.org/10.1371/journal.pone.0345778">VLM-Nav (PLOS One, 2026)</a> · <a href="https://doi.org/10.2139/ssrn.7374301">Cross-modal benchmarking with sim-to-real evaluation (SSRN preprint, 2026)</a></li>
+</ul>
+  </section>
+
+  
+  
+  
+
+  <section
+    class="background"
+    data-size="page"
+    
+    
+  >
+    <!--
+  <background></background>
+  <dark></dark>
+  <size></size>
+-->
+
+<h2 id="vlm-nav-mapless-navigation-from-monocular-vision">VLM-Nav: mapless navigation from monocular vision</h2>
+
+<p>VLM-Nav converts each RGB frame from the drone into a depth map using <strong>DepthAnything-V2</strong>, a zero-shot depth estimator.
+A VLM (the study explores Gemini-flash and GPT-4o) reads the depth map, detects nearby obstacles, and proposes an avoidance manoeuvre.
+A small fully connected network then combines the VLM’s output with the UAV’s heading relative to its target and picks the next action.
+No map is needed, and the hardware is cheap.</p>
+
+<figure class="figure">
+  <a class="figure-image" aria-label="The UAV setup in VLM-Nav: a forward-facing monocular camera 90 field of view plus GPS, altitude, and side distance sensors. Sarker et al., PLOS One , 2026 CC BY 4.0 .">
+    <img src="/images/vlm-nav-drone.jpg" style="
+        width: 100%;
+        max-height: unset;
+      " alt="The UAV setup in VLM-Nav: a forward-facing monocular camera 90 field of view plus GPS, altitude, and side distance sensors. Sarker et al., PLOS One , 2026 CC BY 4.0 ." loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
+  </a>
+  
+    <figcaption class="figure-caption">
+      The UAV setup in VLM-Nav: a forward-facing monocular camera (90° field of view) plus GPS, altitude, and side distance sensors. Sarker et al., <em>PLOS One</em>, 2026 (CC BY 4.0).
+
+    </figcaption>
+  
+</figure>
+
+<p><em>Gobinda Chandra Sarker, AKM Azad, Sejuti Rahman, Md Mehedi Hasan.</em> This builds on Gobinda’s MSc thesis on monocular, depth-based UAV navigation in 3D terrain (2024).</p>
+
+<h2 id="from-simulation-to-a-real-quadrotor">From simulation to a real quadrotor</h2>
+
+<p>The follow-up study moves the reasoning off the aircraft. The UAV streams live video to a ground station, which fuses monocular depth with a VLM and sends back discrete <strong>MAVLink</strong> commands.</p>
+
+<ul>
+  <li><strong>In simulation:</strong> six contemporary VLMs were benchmarked across nine factorially controlled <strong>Unity–ROS 2</strong> scenes, covering 265 episodes and 3,383 logged decisions.</li>
+  <li><strong>In flight:</strong> three cloud VLMs and a non-learning heuristic baseline were flown on a <strong>Pixhawk 6C</strong> quadrotor, with 1,568 decisions recorded for each.</li>
+</ul>
+
+<p>Every reported proportion comes with a Wilson 95% confidence interval and a significance test.
+The work grew out of the 2025 student project <em>Advancing UAV Flight and Obstacle Avoidance with Cross-Modal Deep Learning Integration</em>.</p>
+
+<p><em>Abyead Zarif Hassan, Samiha Tarannum Noor, AKM Azad, Md Mehedi Hasan.</em></p>
+
+<h2 id="earlier-uav-work">Earlier UAV work</h2>
+
+<p>Earlier UAV work in the lab focused on aerial perception. Projects included object and intrusion detection from UAVs, and human-action recognition from drone video with <a href="https://doi.org/10.1109/sti59863.2023.10465205">FFT-UAVNet</a> (2023) and <a href="https://doi.org/10.1109/ACCESS.2024.3516586">U-ActionNet</a> (<em>IEEE Access</em>, 2024).</p>
+  </section>
+
+  
+  
+  
+
+  <section
+    class="background"
+    data-size="page"
+    
+    
+  >
+    <!--
+  <background></background>
+  <dark></dark>
+  <size></size>
+-->
+
+
+<div class="post-nav">
+  <span>
+    
+      <i class="icon fa-solid fa-angle-left"></i> Previous post<br>
+      <a href="/2025/10/19/explainable-ai-histology.html">
+        Explainable AI for histological cancer detection
+      </a>
+    
+  </span>
+  <span>
+    
+      Next post <i class="icon fa-solid fa-angle-right"></i><br>
+      <a href="/2026/04/22/thinking-like-a-botanist-acl-2026.html">
+        Thinking Like a Botanist: PlantInquiryVQA in Findings of ACL 2026
+      </a>
+    
+  </span>
+</div>
+  </section>
+
+
+    </main>
+    
+
+
+<footer
+  class="background"
+  style="--image: url('/images/background.jpg')"
+  
+    data-dark="true"
+  
+  data-size="wide"
+>
+  <!--
+    <div>
+      Extra details like contact info or address
+    </div>
+  -->
+
+  <div>
+    
+      
+      
+      
+
+
+
+  <div class="button-wrapper">
+    <a
+      class="button"
+      href="mailto:mmhasan@du.ac.bd"
+      
+        data-tooltip="Email"
+      
+      data-style="bare"
+      
+      aria-label="Email"
+    >
+      <i class="icon fa-solid fa-envelope"></i>
+      
+    </a>
+  </div>
+
+
+    
+      
+      
+      
+
+
+
+  <div class="button-wrapper">
+    <a
+      class="button"
+      href=""
+      
+        data-tooltip="ORCID"
+      
+      data-style="bare"
+      
+      aria-label="ORCID"
+    >
+      <i class="icon fa-brands fa-orcid"></i>
+      
+    </a>
+  </div>
+
+
+    
+      
+      
+      
+
+
+
+  <div class="button-wrapper">
+    <a
+      class="button"
+      href="https://scholar.google.com/citations?user=jGC1OfgAAAAJ"
+      
+        data-tooltip="Google Scholar"
+      
+      data-style="bare"
+      
+      aria-label="Google Scholar"
+    >
+      <i class="icon fa-brands fa-google"></i>
+      
+    </a>
+  </div>
+
+
+    
+      
+      
+      
+
+
+
+  <div class="button-wrapper">
+    <a
+      class="button"
+      href="https://github.com/avis-res-lab"
+      
+        data-tooltip="GitHub"
+      
+      data-style="bare"
+      
+      aria-label="GitHub"
+    >
+      <i class="icon fa-brands fa-github"></i>
+      
+    </a>
+  </div>
+
+
+    
+      
+      
+      
+
+
+
+  <div class="button-wrapper">
+    <a
+      class="button"
+      href=""
+      
+        data-tooltip="Twitter"
+      
+      data-style="bare"
+      
+      aria-label="Twitter"
+    >
+      <i class="icon fa-brands fa-twitter"></i>
+      
+    </a>
+  </div>
+
+
+    
+      
+      
+      
+
+
+
+  <div class="button-wrapper">
+    <a
+      class="button"
+      href=""
+      
+        data-tooltip="YouTube"
+      
+      data-style="bare"
+      
+      aria-label="YouTube"
+    >
+      <i class="icon fa-brands fa-youtube"></i>
+      
+    </a>
+  </div>
+
+
+    
+  </div>
+
+  <div>
+    &copy; 2026
+    Advanced Vision & Intelligent Systems (AVIS) Research Lab
+    &nbsp; | &nbsp; Built with
+    <a href="https://github.com/greenelab/lab-website-template">
+      Lab Website Template
+    </a>
+  </div>
+
+  <input
+    type="checkbox"
+    class="dark-toggle"
+    data-tooltip="Dark mode"
+    aria-label="toggle dark mode"
+    oninput="onDarkToggleChange(event)"
+  >
+</footer>
+
+  </body>
+</html>

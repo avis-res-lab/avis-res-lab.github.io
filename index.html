@@ -555,7 +555,7 @@
       
         <a
           href="/research/"
-          data-tooltip="Published works"
+          data-tooltip="Research areas and highlighted work"
         >
           Research
         </a>
@@ -563,8 +563,17 @@
     
       
         <a
+          href="/publications/"
+          data-tooltip="Every paper, year by year"
+        >
+          Publications
+        </a>
+      
+    
+      
+        <a
           href="/projects/"
-          data-tooltip="Software, datasets, and more"
+          data-tooltip="Funded projects and research lines"
         >
           Projects
         </a>
@@ -582,7 +591,7 @@
       
         <a
           href="/blog/"
-          data-tooltip="Musings and miscellany"
+          data-tooltip="Projects, papers, and lab news"
         >
           Blog
         </a>
@@ -623,9 +632,40 @@
     
     
   >
-    <h1 id="welcome-to-avis-lab">Welcome to AVIS Lab</h1>
+    <h1 id="welcome-to-the-avis-lab">Welcome to the AVIS Lab</h1>
 
-<p>The <strong>Advanced Vision &amp; Intelligent Systems (AVIS)</strong> Research Group is based in the <a href="https://www.du.ac.bd/body/RME">Department of Robotics and Mechatronics Engineering</a> at the <a href="https://www.du.ac.bd/">University of Dhaka</a>. We work at the intersection of computer vision, deep learning, and robotics, building AI systems that can see, reason, and act in the real world. We design and deploy AI-driven solutions across a broad spectrum, from UAV-based navigation and robotic visual servoing to precision agriculture and Industry 4.0 automation, with an unwavering commitment to translating fundamental research into real-world impact.</p>
+<p>The <strong>Advanced Vision &amp; Intelligent Systems (AVIS) Lab</strong> at the <a href="https://www.du.ac.bd/body/RME">Department of Robotics and Mechatronics Engineering</a>, <a href="https://www.du.ac.bd/">University of Dhaka</a>, builds AI that can <strong>see, reason, and act</strong> in the physical world.
+Led by <a href="/team/">Dr. Md Mehedi Hasan</a>, we work where computer vision, machine learning, and robotics meet.
+Our drones navigate with vision-language models. Our agents learn long-horizon behaviour from offline data. Our models diagnose crop and human disease and explain their reasoning.
+We publish at venues including Findings of ACL, <em>PLOS One</em>, <em>Plant Methods</em>, and <em>IEEE Access</em>, and partner with agricultural and medical institutions across Bangladesh.</p>
+  </section>
+
+  
+  
+  
+
+  <section
+    class="background"
+    data-size="page"
+    
+    
+  >
+    <!--
+  <background></background>
+  <dark></dark>
+  <size></size>
+-->
+
+<h2 id="latest-news">Latest news</h2>
+
+<ul>
+  <li><strong>Sep 2026:</strong> Two new preprints on offline goal-conditioned RL: <a href="https://arxiv.org/abs/2609.33259">GTRL</a>, and a study asking whether <a href="https://arxiv.org/abs/2609.39901">better goal representations actually help</a>. <a href="/2026/09/30/offline-goal-conditioned-rl.html">Read more</a></li>
+  <li><strong>May 2026:</strong> <a href="/2026/05/07/plantphenobot.html">PlantPhenoBot</a>, a robotic plant-phenotyping project with Gazipur Agricultural University, begins under a UGC–DU grant.</li>
+  <li><strong>Apr 2026:</strong> <a href="/2026/04/22/thinking-like-a-botanist-acl-2026.html"><em>Thinking Like a Botanist</em></a> is published in <strong>Findings of ACL 2026</strong>.</li>
+  <li><strong>Apr 2026:</strong> <a href="/2026/04/03/vlm-driven-uav-navigation.html"><em>VLM-Nav</em></a>, mapless UAV navigation driven by vision-language models, is published in <strong>PLOS One</strong>.</li>
+  <li><strong>Jan 2026:</strong> Two papers at <strong>IEEE ICECTE 2026</strong>: <a href="https://doi.org/10.1109/ICECTE69292.2026.11429443">IG-CNN</a> for knee osteoporosis diagnosis and <a href="https://doi.org/10.1109/ICECTE69292.2026.11429349">FA-EEGNet</a> for stroke-rehabilitation EEG.</li>
+  <li><strong>Oct 2025:</strong> A MOST-funded project on <a href="/2025/10/19/explainable-ai-histology.html">explainable AI for histological cancer detection</a> begins with Bangladesh Medical University.</li>
+</ul>
   </section>
 
   
@@ -648,22 +688,21 @@
 
 <div class="feature">
   <a href="/research" class="feature-image" aria-label="Our Research">
-    <img src="/images/research.jpg" loading="lazy" alt="Our Research" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
+    <img src="/images/wheat-spike-detection.jpg" loading="lazy" alt="Our Research" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
   </a>
   <div class="feature-text">
     
       <p class="feature-title">Our Research</p>
     
     
-<p>We develop intelligent vision-based systems at the intersection of deep learning, robotics, and autonomous platforms. Our work spans UAV navigation, robotic visual servoing, plant phenomics, and IoT-integrated machine vision, with a focus on deploying real-world AI solutions for Industry 4.0 and precision agriculture.</p>
-
-<p>Our work is published at leading venues and indexed on <a href="https://scholar.google.com/citations?hl=en&amp;user=jGC1OfgAAAAJ">Google Scholar</a>.</p>
+<p>We study how machines can perceive and act intelligently, from foundations to deployment. Our areas are <strong>robot learning</strong>, <strong>vision-language reasoning</strong>, <strong>autonomous UAVs</strong>, <strong>plant phenomics</strong>, <strong>medical imaging</strong>, and <strong>intelligent sensing</strong>.
+Each area pairs new methods with a concrete problem worth solving: counting wheat spikes in a field, diagnosing a diseased leaf, explaining a cancer prediction to a pathologist.</p>
 
 <div class="button-wrapper">
     <a class="button" href="/research" data-style="bare" data-flip="" aria-label="fa-solid fa-arrow-right">
       <i class="icon fa-solid fa-arrow-right"></i>
       
-        <span>See our publications</span>
+        <span>Explore our research</span>
       
     </a>
   </div>
@@ -673,17 +712,41 @@
 </div>
 
 <div class="feature" data-flip="">
+  <a href="/publications" class="feature-image" aria-label="Publications">
+    <img src="/images/uav-simulation-town.jpg" loading="lazy" alt="Publications" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
+  </a>
+  <div class="feature-text">
+    
+      <p class="feature-title">Publications</p>
+    
+    
+<p>Our recent work spans Findings of ACL, <em>PLOS One</em>, <em>Plant Methods</em>, <em>Smart Agricultural Technology</em>, <em>Journal of Building Engineering</em>, and <em>IEEE Access</em>, alongside new preprints in reinforcement learning and vision-language navigation.
+Browse every paper since 2022, grouped by year and fully searchable.</p>
+
+<div class="button-wrapper">
+    <a class="button" href="/publications" data-style="bare" data-flip="" aria-label="fa-solid fa-arrow-right">
+      <i class="icon fa-solid fa-arrow-right"></i>
+      
+        <span>See all publications</span>
+      
+    </a>
+  </div>
+
+
+  </div>
+</div>
+
+<div class="feature">
   <a href="/projects" class="feature-image" aria-label="Our Projects">
-    <img src="/images/drone-vs-robot.jpg" loading="lazy" alt="Our Projects" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
+    <img src="/images/field-phenotyping-platform.jpg" loading="lazy" alt="Our Projects" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
   </a>
   <div class="feature-text">
     
       <p class="feature-title">Our Projects</p>
     
     
-<p>From mapless UAV navigation driven by vision-language models to AI-powered mill relining automation, our projects bridge the gap between cutting-edge research and deployable systems. Explore our open-source tools, datasets, and collaborative initiatives.</p>
-
-<p>We share the code, datasets, and tools behind our research as we build them. Follow along or contribute on <a href="https://github.com/avis-res-lab">GitHub</a>.</p>
+<p>Our funded projects are supported by MOST, UGC, and ICT, with partners including Gazipur Agricultural University and Bangladesh Medical University.
+Running now: <strong>PlantPhenoBot</strong>, a field-robotics project for plant phenotyping, and <strong>explainable AI for cancer pathology</strong>. Past projects range from a teleoperated hospital-assistance robot to plant-disease forecasting.</p>
 
 <div class="button-wrapper">
     <a class="button" href="/projects" data-style="bare" data-flip="" aria-label="fa-solid fa-arrow-right">
@@ -698,7 +761,7 @@
   </div>
 </div>
 
-<div class="feature">
+<div class="feature" data-flip="">
   <a href="/team" class="feature-image" aria-label="Our Team">
     <img src="/images/dean-awards.jpg" loading="lazy" alt="Our Team" onerror="this.src = '/images/fallback.svg'; this.onerror = null;" />
   </a>
@@ -707,7 +770,8 @@
       <p class="feature-title">Our Team</p>
     
     
-<p>Our lab brings together researchers across all levels, from undergraduate students to postdoctoral fellows, working closely under Dr. Md Mehedi Hasan. We collaborate closely, publish at top venues, and prepare our members for strong careers in academia and industry.</p>
+<p>AVIS Lab brings together undergraduate and graduate researchers who work closely with Dr. Hasan from first idea to published paper.
+Students lead their own projects, co-author at international venues, and have been recognized with the Faculty of Engineering and Technology <strong>Dean’s Award</strong>. Dr. Hasan received one in 2024.</p>
 
 <div class="button-wrapper">
     <a class="button" href="/team" data-style="bare" data-flip="" aria-label="fa-solid fa-arrow-right">

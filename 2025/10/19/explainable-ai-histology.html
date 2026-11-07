@@ -1,0 +1,932 @@
+<!DOCTYPE html>
+<html lang="en" data-dark="false">
+  <head>
+  <!--
+  put your analytics (e.g. Google Analytics) tracking code here
+-->
+
+  <!--
+  put your search engine verification (e.g. Google Search Console) tag here
+-->
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Explainable AI for histological cancer detection | Advanced Vision & Intelligent Systems (AVIS) Research Lab</title>
+
+<link rel="icon" href="/images/avis-logo.jpeg">
+
+<meta name="title" content="Explainable AI for histological cancer detection">
+<meta name="description" content="AVIS Research Group (Advanced Vision &amp; Intelligent Systems Research Group) focuses on Computer Vision and AI-driven intelligent systems">
+
+<meta property="og:title" content="Explainable AI for histological cancer detection">
+<meta property="og:site_title" content="Advanced Vision &amp; Intelligent Systems (AVIS) Research Lab">
+<meta property="og:description" content="AVIS Research Group (Advanced Vision &amp; Intelligent Systems Research Group) focuses on Computer Vision and AI-driven intelligent systems">
+<meta property="og:url" content="https://avis-res-lab.github.io">
+<meta property="og:image" content="https://avis-res-lab.github.io/images/avis-logo.jpeg">
+<meta property="og:locale" content="en_US">
+
+<meta property="twitter:title" content="Explainable AI for histological cancer detection">
+<meta property="twitter:description" content="AVIS Research Group (Advanced Vision &amp; Intelligent Systems Research Group) focuses on Computer Vision and AI-driven intelligent systems">
+<meta property="twitter:url" content="https://avis-res-lab.github.io">
+<meta property="twitter:card" content="summary_large_image">
+<meta property="twitter:image" content="https://avis-res-lab.github.io/images/avis-logo.jpeg">
+
+
+  <meta property="og:type" content="website">
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "WebSite",
+    
+    "name": "Explainable AI for histological cancer detection",
+    "description": "AVIS Research Group (Advanced Vision &amp; Intelligent Systems Research Group) focuses on Computer Vision and AI-driven intelligent systems",
+    "headline": "Explainable AI for histological cancer detection",
+    "publisher": {
+      "@type": "Organization",
+      "logo": { "@type": "ImageObject", "url": "/images/avis-logo.jpeg" }
+    },
+    "url": "https://avis-res-lab.github.io"
+  }
+</script>
+
+<link rel="alternate" type="application/rss+xml" href="https://avis-res-lab.github.io/feed.xml">
+
+  <!-- Google Fonts -->
+<!-- automatically get url from fonts used in theme file -->
+
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?display=swap&&family=Barlow:ital,wght@0,200;0,400;0,500;0,600;1,200;1,400;1,500;1,600&family=Roboto+Mono:ital,wght@0,200;0,400;0,500;0,600;1,200;1,400;1,500;1,600" rel="stylesheet">
+
+<!-- Font Awesome icons (load asynchronously due to size) -->
+
+<link
+  href="https://use.fontawesome.com/releases/v6.7.0/css/all.css"
+  rel="stylesheet"
+  media="none"
+  onload="this.removeAttribute('media'); this.onload = null;"
+/>
+<noscript>
+  <link href="https://use.fontawesome.com/releases/v6.7.0/css/all.css" rel="stylesheet">
+</noscript>
+
+  <!-- third party styles -->
+<!-- https://stylishthemes.github.io/Syntax-Themes/pygments/ -->
+<link 
+  href="https://cdn.jsdelivr.net/gh/StylishThemes/Syntax-Themes/pygments/css-github/pygments-tomorrow-night-eighties.css"
+  rel="stylesheet"
+/>
+
+<!-- include all sass in styles folder -->
+
+
+  
+    <link
+      href="/_styles/-theme.css"
+      rel="stylesheet"
+    />
+  
+
+  
+    <link
+      href="/_styles/alert.css"
+      rel="stylesheet"
+    />
+  
+
+  
+    <link
+      href="/_styles/all.css"
+      rel="stylesheet"
+    />
+  
+
+  
+    <link
+      href="/_styles/anchor.css"
+      rel="stylesheet"
+    />
+  
+
+  
+    <link
+      href="/_styles/background.css"
+      rel="stylesheet"
+    />
+  
+
+  
+    <link
+      href="/_styles/body.css"
+      rel="stylesheet"
+    />
+  
+
+  
+    <link
+      href="/_styles/bold.css"
+      rel="stylesheet"
+    />
+  
+
+  
+    <link
+      href="/_styles/button.css"
+      rel="stylesheet"
+    />
+  
+
+  
+    <link
+      href="/_styles/card.css"
+      rel="stylesheet"
+    />
+  
+
+  
+    <link
+      href="/_styles/checkbox.css"
+      rel="stylesheet"
+    />
+  
+
+  
+    <link
+      href="/_styles/citation.css"
+      rel="stylesheet"
+    />
+  
+
+  
+    <link
+      href="/_styles/code.css"
+      rel="stylesheet"
+    />
+  
+
+  
+    <link
+      href="/_styles/cols.css"
+      rel="stylesheet"
+    />
+  
+
+  
+    <link
+      href="/_styles/dark-toggle.css"
+      rel="stylesheet"
+    />
+  
+
+  
+    <link
+      href="/_styles/details.css"
+      rel="stylesheet"
+    />
+  
+
+  
+    <link
+      href="/_styles/feature.css"
+      rel="stylesheet"
+    />
+  
+
+  
+    <link
+      href="/_styles/figure.css"
+      rel="stylesheet"
+    />
+  
+
+  
+    <link
+      href="/_styles/float.css"
+      rel="stylesheet"
+    />
+  
+
+  
+    <link
+      href="/_styles/font.css"
+      rel="stylesheet"
+    />
+  
+
+  
+    <link
+      href="/_styles/footer.css"
+      rel="stylesheet"
+    />
+  
+
+  
+    <link
+      href="/_styles/form.css"
+      rel="stylesheet"
+    />
+  
+
+  
+    <link
+      href="/_styles/grid.css"
+      rel="stylesheet"
+    />
+  
+
+  
+    <link
+      href="/_styles/header.css"
+      rel="stylesheet"
+    />
+  
+
+  
+    <link
+      href="/_styles/heading.css"
+      rel="stylesheet"
+    />
+  
+
+  
+    <link
+      href="/_styles/highlight.css"
+      rel="stylesheet"
+    />
+  
+
+  
+    <link
+      href="/_styles/icon.css"
+      rel="stylesheet"
+    />
+  
+
+  
+    <link
+      href="/_styles/image.css"
+      rel="stylesheet"
+    />
+  
+
+  
+    <link
+      href="/_styles/link.css"
+      rel="stylesheet"
+    />
+  
+
+  
+    <link
+      href="/_styles/list.css"
+      rel="stylesheet"
+    />
+  
+
+  
+    <link
+      href="/_styles/main.css"
+      rel="stylesheet"
+    />
+  
+
+  
+    <link
+      href="/_styles/map.css"
+      rel="stylesheet"
+    />
+  
+
+  
+    <link
+      href="/_styles/paragraph.css"
+      rel="stylesheet"
+    />
+  
+
+  
+    <link
+      href="/_styles/portrait.css"
+      rel="stylesheet"
+    />
+  
+
+  
+    <link
+      href="/_styles/post-excerpt.css"
+      rel="stylesheet"
+    />
+  
+
+  
+    <link
+      href="/_styles/post-info.css"
+      rel="stylesheet"
+    />
+  
+
+  
+    <link
+      href="/_styles/post-nav.css"
+      rel="stylesheet"
+    />
+  
+
+  
+    <link
+      href="/_styles/quote.css"
+      rel="stylesheet"
+    />
+  
+
+  
+    <link
+      href="/_styles/rule.css"
+      rel="stylesheet"
+    />
+  
+
+  
+    <link
+      href="/_styles/search-box.css"
+      rel="stylesheet"
+    />
+  
+
+  
+    <link
+      href="/_styles/search-info.css"
+      rel="stylesheet"
+    />
+  
+
+  
+    <link
+      href="/_styles/section.css"
+      rel="stylesheet"
+    />
+  
+
+  
+    <link
+      href="/_styles/table.css"
+      rel="stylesheet"
+    />
+  
+
+  
+    <link
+      href="/_styles/tags.css"
+      rel="stylesheet"
+    />
+  
+
+  
+    <link
+      href="/_styles/textbox.css"
+      rel="stylesheet"
+    />
+  
+
+  
+    <link
+      href="/_styles/tooltip.css"
+      rel="stylesheet"
+    />
+  
+
+  
+    <link
+      href="/_styles/util.css"
+      rel="stylesheet"
+    />
+  
+
+
+<!-- include all css in styles folder -->
+
+
+
+  <!-- third party scripts -->
+<script src="https://unpkg.com/@popperjs/core@2" defer></script>
+<script src="https://unpkg.com/tippy.js@6" defer></script>
+<script src="https://unpkg.com/mark.js@8" defer></script>
+
+<!-- include all js in scripts folder -->
+
+
+  <script src="/_scripts/anchors.js"></script>
+
+  <script src="/_scripts/dark-mode.js"></script>
+
+  <script src="/_scripts/fetch-tags.js"></script>
+
+  <script src="/_scripts/search.js"></script>
+
+  <script src="/_scripts/site-search.js"></script>
+
+  <script src="/_scripts/table-wrap.js"></script>
+
+  <script src="/_scripts/tooltip.js"></script>
+
+
+</head>
+
+  <body>
+    
+
+
+
+
+<header
+  class="background"
+  style="--image: url('/images/background.jpg')"
+  
+    data-dark="true"
+  
+  
+>
+  <a href="/" class="home">
+    
+  <span class="logo">
+    <img src="/images/avis-logo.jpeg" alt="AVIS Research Lab logo">
+  </span>
+
+    
+      <span class="title-text" data-tooltip="Home">
+        
+          <span class="title">Advanced Vision & Intelligent Systems (AVIS) Research Lab</span>
+        
+        
+      </span>
+    
+  </a>
+
+  <input class="nav-toggle" type="checkbox" aria-label="show/hide nav">
+
+  <nav>
+    
+    
+      
+        <a
+          href="/research/"
+          data-tooltip="Research areas and highlighted work"
+        >
+          Research
+        </a>
+      
+    
+      
+        <a
+          href="/publications/"
+          data-tooltip="Every paper, year by year"
+        >
+          Publications
+        </a>
+      
+    
+      
+        <a
+          href="/projects/"
+          data-tooltip="Funded projects and research lines"
+        >
+          Projects
+        </a>
+      
+    
+      
+        <a
+          href="/team/"
+          data-tooltip="About our team"
+        >
+          Team
+        </a>
+      
+    
+      
+        <a
+          href="/blog/"
+          data-tooltip="Projects, papers, and lab news"
+        >
+          Blog
+        </a>
+      
+    
+      
+        <a
+          href="/contact/"
+          data-tooltip="Email, address, and location"
+        >
+          Join Us
+        </a>
+      
+    
+  </nav>
+</header>
+
+    <main>
+      <!--
+  modify main content of page:
+  - add section breaks
+  - attach section properties
+  - filter out blank sections
+-->
+
+
+
+
+
+
+  
+  
+  
+
+  <section
+    class="background"
+    data-size="1"
+    
+    
+  >
+    <!--
+  <background></background>
+  <dark></dark>
+  <size>1</size>
+-->
+
+
+<h1 class="center">Explainable AI for histological cancer detection</h1>
+
+<div class="post-info">
+  
+
+  
+  
+
+  
+    <span data-tooltip="Originally published on">
+      <i class="icon fa-regular fa-calendar"></i>
+      <span>October 19, 2025</span>
+    </span>
+  
+
+  
+</div>
+
+
+  
+
+
+  <div
+    class="tags"
+    
+  >
+    
+      <a
+        href="/blog?search=&quot;tag: ongoing&quot;"
+        class="tag"
+        data-tooltip="Show items with the tag &quot;ongoing&quot;"
+      >
+        ongoing
+      </a>
+    
+      <a
+        href="/blog?search=&quot;tag: medical-ai&quot;"
+        class="tag"
+        data-tooltip="Show items with the tag &quot;medical-ai&quot;"
+      >
+        medical-ai
+      </a>
+    
+      <a
+        href="/blog?search=&quot;tag: explainable-ai&quot;"
+        class="tag"
+        data-tooltip="Show items with the tag &quot;explainable-ai&quot;"
+      >
+        explainable-ai
+      </a>
+    
+  </div>
+  </section>
+
+  
+  
+  
+
+  <section
+    class="background"
+    data-size="page"
+    
+    
+  >
+    <!--
+  <background></background>
+  <dark></dark>
+  <size></size>
+-->
+
+
+<p>Deep learning can now classify microscopic tissue images with high accuracy, but pathologists rarely trust a model that cannot show <em>why</em> it reached a decision.
+This project builds cancer-detection models that are both accurate and interpretable. It is funded by the <strong>Ministry of Science and Technology (MOST)</strong> and runs in collaboration with <strong>Bangladesh Medical University (BMU)</strong>.</p>
+
+<p><strong>At a glance</strong></p>
+
+<ul>
+  <li><strong>Project:</strong> Enhancing Histology Cancer Cell Detection: Deep Learning Model Interpreted with eXplainable AI (XAI) for Microscopic Tissue Image Analysis</li>
+  <li><strong>Status:</strong> Ongoing (started 19 October 2025)</li>
+  <li><strong>Funding:</strong> Ministry of Science and Technology (MOST), Bangladesh</li>
+  <li><strong>Collaborator:</strong> Bangladesh Medical University (BMU)</li>
+  <li><strong>Principal investigator:</strong> Dr. Md Mehedi Hasan</li>
+</ul>
+  </section>
+
+  
+  
+  
+
+  <section
+    class="background"
+    data-size="page"
+    
+    
+  >
+    <!--
+  <background></background>
+  <dark></dark>
+  <size></size>
+-->
+
+<h2 id="the-approach">The approach</h2>
+
+<p>The project builds on a 2024 student research project of the same name by Shamaeta Paul Gupta and Apurba Roy.
+The resulting framework <a href="https://doi.org/10.21203/rs.3.rs-8157817/v1">(preprint)</a>:</p>
+
+<ul>
+  <li>combines an <strong>ensemble of three pretrained CNNs</strong>: ResNet50, VGG16, and InceptionV3;</li>
+  <li>uses a <strong>4× super-resolution</strong> step to sharpen tissue images before classification, which improved accuracy by 1–10% (ResNet50 96.21%, VGG16 92.14%, InceptionV3 96.42%);</li>
+  <li>explains each prediction with <strong>Grad-CAM, SHAP, and LIME</strong>, so clinicians can see which regions and features drove the decision.</li>
+</ul>
+
+<p>The MOST-funded project continues this work with clinical collaborators at BMU.</p>
+
+<h2 id="related-medical-ai-work-in-the-lab">Related medical-AI work in the lab</h2>
+
+<ul>
+  <li><strong>Explainable vision-language models for medical reports.</strong> An ongoing MPhil project (Md Julhas Hossain) is building a framework that automatically interprets diagnostic medical reports and explains them to patients.</li>
+  <li><strong>Bone health from X-rays.</strong> <a href="https://doi.org/10.1109/ICECTE69292.2026.11429443">IG-CNN</a> (IEEE ICECTE 2026) and a follow-up preprint apply information-geometric deep learning to knee osteoporosis diagnosis.</li>
+  <li><strong>Biosignals.</strong> <a href="https://doi.org/10.1109/ICECTE69292.2026.11429349">FA-EEGNet</a> classifies stroke-rehabilitation movements from EEG, and a 2025 student project explored an EEG-actuated bionic hand.</li>
+</ul>
+  </section>
+
+  
+  
+  
+
+  <section
+    class="background"
+    data-size="page"
+    
+    
+  >
+    <!--
+  <background></background>
+  <dark></dark>
+  <size></size>
+-->
+
+
+<div class="post-nav">
+  <span>
+    
+      <i class="icon fa-solid fa-angle-left"></i> Previous post<br>
+      <a href="/2024/05/01/inter-university-robotics-hackathon.html">
+        Inter-University Robotics and Hackathon Competition
+      </a>
+    
+  </span>
+  <span>
+    
+      Next post <i class="icon fa-solid fa-angle-right"></i><br>
+      <a href="/2026/04/03/vlm-driven-uav-navigation.html">
+        Flying with one camera: vision-language models for UAV navigation
+      </a>
+    
+  </span>
+</div>
+  </section>
+
+
+    </main>
+    
+
+
+<footer
+  class="background"
+  style="--image: url('/images/background.jpg')"
+  
+    data-dark="true"
+  
+  data-size="wide"
+>
+  <!--
+    <div>
+      Extra details like contact info or address
+    </div>
+  -->
+
+  <div>
+    
+      
+      
+      
+
+
+
+  <div class="button-wrapper">
+    <a
+      class="button"
+      href="mailto:mmhasan@du.ac.bd"
+      
+        data-tooltip="Email"
+      
+      data-style="bare"
+      
+      aria-label="Email"
+    >
+      <i class="icon fa-solid fa-envelope"></i>
+      
+    </a>
+  </div>
+
+
+    
+      
+      
+      
+
+
+
+  <div class="button-wrapper">
+    <a
+      class="button"
+      href=""
+      
+        data-tooltip="ORCID"
+      
+      data-style="bare"
+      
+      aria-label="ORCID"
+    >
+      <i class="icon fa-brands fa-orcid"></i>
+      
+    </a>
+  </div>
+
+
+    
+      
+      
+      
+
+
+
+  <div class="button-wrapper">
+    <a
+      class="button"
+      href="https://scholar.google.com/citations?user=jGC1OfgAAAAJ"
+      
+        data-tooltip="Google Scholar"
+      
+      data-style="bare"
+      
+      aria-label="Google Scholar"
+    >
+      <i class="icon fa-brands fa-google"></i>
+      
+    </a>
+  </div>
+
+
+    
+      
+      
+      
+
+
+
+  <div class="button-wrapper">
+    <a
+      class="button"
+      href="https://github.com/avis-res-lab"
+      
+        data-tooltip="GitHub"
+      
+      data-style="bare"
+      
+      aria-label="GitHub"
+    >
+      <i class="icon fa-brands fa-github"></i>
+      
+    </a>
+  </div>
+
+
+    
+      
+      
+      
+
+
+
+  <div class="button-wrapper">
+    <a
+      class="button"
+      href=""
+      
+        data-tooltip="Twitter"
+      
+      data-style="bare"
+      
+      aria-label="Twitter"
+    >
+      <i class="icon fa-brands fa-twitter"></i>
+      
+    </a>
+  </div>
+
+
+    
+      
+      
+      
+
+
+
+  <div class="button-wrapper">
+    <a
+      class="button"
+      href=""
+      
+        data-tooltip="YouTube"
+      
+      data-style="bare"
+      
+      aria-label="YouTube"
+    >
+      <i class="icon fa-brands fa-youtube"></i>
+      
+    </a>
+  </div>
+
+
+    
+  </div>
+
+  <div>
+    &copy; 2026
+    Advanced Vision & Intelligent Systems (AVIS) Research Lab
+    &nbsp; | &nbsp; Built with
+    <a href="https://github.com/greenelab/lab-website-template">
+      Lab Website Template
+    </a>
+  </div>
+
+  <input
+    type="checkbox"
+    class="dark-toggle"
+    data-tooltip="Dark mode"
+    aria-label="toggle dark mode"
+    oninput="onDarkToggleChange(event)"
+  >
+</footer>
+
+  </body>
+</html>
