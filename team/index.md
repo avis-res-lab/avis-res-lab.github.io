@@ -22,16 +22,6 @@ Interested in joining? See [Join Us]({{ "/contact/" | relative_url }}).
 
 {% include section.html background="images/background.jpg" dark=true %}
 
-# Alumni
-
-{% include section.html %}
-
-Former lab members and where they are now.
-
-{% include list.html data="alumni" component="portrait" filter="role == 'alum'" %}
-
-{% include section.html background="images/background.jpg" dark=true %}
-
 # Collaborators
 
 {% include section.html %}
@@ -39,3 +29,13 @@ Former lab members and where they are now.
 Researchers who work with the lab remotely on joint projects.
 
 {% include list.html data="alumni" component="portrait" filter="role == 'collaborator'" %}
+
+{% include section.html background="images/background.jpg" dark=true %}
+
+# Alumni
+
+{% include section.html %}
+
+Former lab members and where they are now.
+
+{% include list.html data="alumni" component="portrait" filter="role == 'alum'" %}
