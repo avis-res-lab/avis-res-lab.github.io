@@ -1,0 +1,25 @@
+
+---
+---
+
+.icon {
+  font-size: 1em;
+}
+
+span.icon {
+  line-height: 1;
+}
+
+span.icon > svg {
+  position: relative;
+  top: 0.1em;
+  height: 1em;
+}
+
+/* Make research area icons larger and more visible */
+main h3 > .icon {
+  font-size: 1.35em;
+  margin-right: 12px;
+  color: var(--primary);
+  vertical-align: middle;
+}
