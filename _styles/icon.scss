@@ -16,10 +16,14 @@ span.icon > svg {
   height: 1em;
 }
 
-/* Make research area icons larger and more visible */
+
+
+/* Research area icons */
 main h3 > .icon {
   font-size: 1.35em;
   margin-right: 12px;
-  color: var(--primary);
+  color: #0795d9 !important;
+  opacity: 1;
   vertical-align: middle;
 }
+
