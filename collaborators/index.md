@@ -1,11 +1,11 @@
 ---
-title: Collaborators
+title: Collaborations
 nav:
   order: 6
-  tooltip: Research collaborators and partner institutions
+  tooltip: Research collaborations and partner institutions
 ---
 
-# {% include icon.html icon="fa-solid fa-handshake" %}Collaborators
+# {% include icon.html icon="fa-solid fa-handshake" %}Collaborations
 
 AVIS Lab collaborates with academic researchers, research groups, and institutions to advance research in artificial intelligence, computer vision, robotics, and intelligent systems.
 

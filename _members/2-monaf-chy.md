@@ -1,9 +1,8 @@
 ---
 name: Abdul Monaf Chowdhury
 image: images/monaf-msc.jpg
-# description: MSc Student
-# group: alum
 role: msc
+description: Research Assistant & MSc Student
 affiliation: University of Dhaka
 links:
   home-page: https://monaf-chowdhury.github.io/

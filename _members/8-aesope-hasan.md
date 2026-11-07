@@ -2,6 +2,7 @@
 name: Aesope Hasan
 image: images/aesope-hasan.png
 role: msc
+description: Research Assistant & MSc Student
 affiliation: University of Dhaka
 links:
   google-scholar: 14TQKzkAAAAJ

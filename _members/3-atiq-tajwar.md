@@ -2,7 +2,7 @@
 name: Atique Tajwar
 image: images/atique-msc.jpg
 role: msc
-# description: MSc Student
+description: Research Assistant & MSc Student
 affiliation: University of Dhaka
 # group: alum
 links:
