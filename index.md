@@ -41,7 +41,7 @@ Each area pairs new methods with a concrete problem worth solving: counting whea
 
 {%
   include feature.html
-  image="images/wheat-spike-detection.jpg"
+  image="images/avis-lab.jpeg"
   link="research"
   title="Our Research"
   text=text
