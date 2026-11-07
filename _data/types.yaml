@@ -85,6 +85,10 @@ search:
   text: Search
   tooltip: Search
 
+researcher:
+  icon: fa-solid fa-flask
+  description: Researcher
+
 # social media
 
 orcid:
