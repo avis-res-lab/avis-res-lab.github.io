@@ -12,6 +12,8 @@ We publish at venues including Findings of ACL, *PLOS One*, *Plant Methods*, and
 
 ## Latest news
 
+- **Nov 2026:** Our paper **"Beyond Visible Evidence: Open-World Amodal Counting Under Spatial Occlusion" (CountOCC)** has been accepted at the **IEEE/CVF Winter Conference on Applications of Computer Vision (WACV 2027)**! The work introduces an open-world amodal counting framework that reconstructs occluded object features using spatial context and multimodal guidance. [Paper](https://arxiv.org/abs/2511.12702)
+
 - **Sep 2026:** Two new preprints on offline goal-conditioned RL: [GTRL](https://arxiv.org/abs/2609.33259), and a study asking whether [better goal representations actually help](https://arxiv.org/abs/2609.39901). [Read more]({{ "/2026/09/30/offline-goal-conditioned-rl.html" | relative_url }})
 - **May 2026:** [PlantPhenoBot]({{ "/2026/05/07/plantphenobot.html" | relative_url }}), a robotic plant-phenotyping project with Gazipur Agricultural University, begins under a UGC–DU grant.
 - **Apr 2026:** [*Thinking Like a Botanist*]({{ "/2026/04/22/thinking-like-a-botanist-acl-2026.html" | relative_url }}) is published in **Findings of ACL 2026**.
