@@ -1,7 +1,6 @@
-
 ---
 name: Apurba Roy
-image: images/apurbo-roy.png
+image: images/apurba-roy.png
 role: msc
 affiliation: University of Dhaka
 links:

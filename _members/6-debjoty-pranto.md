@@ -1,4 +1,3 @@
-
 ---
 name: Debjoty Roy Pranto
 image: images/debjoty-pranto.png

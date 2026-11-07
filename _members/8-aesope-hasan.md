@@ -1,4 +1,3 @@
-
 ---
 name: Aesope Hasan
 image: images/aesope-hasan.png
