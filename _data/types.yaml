@@ -38,6 +38,9 @@ collaborator:
   icon: fa-solid fa-handshake
   description: Collaborator
 
+research-assistant:
+  icon: fa-solid fa-flask
+  description: Research Assistant
 # general
 
 link:
