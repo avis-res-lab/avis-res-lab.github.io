@@ -1,6 +1,6 @@
 ---
 name: Shamaeta Paul Gupta
-image: images/shamaeta-paul-gupta.jpg
+image: images/shamaeta-paul-gupta.png
 role: alum
 description: Alumni
 affiliation: University of Dhaka
