@@ -1,6 +1,6 @@
 ---
 name: Protik Barua
-image: images/protik-alumni.jpg
+image: images/protik-alumni.png
 description: PhD Student
 role: alum
 affiliation: University of North Carolina at Charlotte
