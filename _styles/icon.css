@@ -21,4 +21,10 @@ main h3 > .icon {
   vertical-align: middle;
 }
 
+/* Main page heading icons */
+main h1 > .icon {
+  color: #0795d9 !important;
+  opacity: 1;
+}
+
 /*# sourceMappingURL=icon.css.map */
