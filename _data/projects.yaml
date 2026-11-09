@@ -18,6 +18,7 @@
 - title: Explainable AI for Histological Cancer Detection
   subtitle: MOST · 2025 – present
   group: featured
+  image: images/histology-cancer-detection.png
   link: 2025/10/19/explainable-ai-histology.html
   description: Accurate and interpretable deep-learning models for microscopic tissue images (Grad-CAM, SHAP, LIME), with Bangladesh Medical University.
   tags:
