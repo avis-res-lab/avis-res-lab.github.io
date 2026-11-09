@@ -101,7 +101,7 @@
     - Medical Imaging
 
 - id: doi:10.1109/ICECTE69292.2026.11429349
-  image: images/fa-eegnet.jpg
+  image: images/fa-eeg-net.jpg
   type: paper
   publisher: 2026 5th International Conference on Electrical, Computer & Telecommunication Engineering (ICECTE)
   tags:
