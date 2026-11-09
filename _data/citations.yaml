@@ -59,6 +59,7 @@
   publisher: SSRN Preprint
   date: '2026-01-01'
   link: https://doi.org/hcrdfj
+  image: images/spatial-graph-tokenization.png
   type: preprint
   description: A deterministic, non-neural visual tokenizer that adapts Byte Pair
     Encoding to images by merging adjacent patches along a planar graph, with formal
@@ -77,6 +78,7 @@
   publisher: SSRN Preprint
   date: '2026-01-01'
   link: https://doi.org/hcrdfk
+  image: images/bone-health-classification.png
   type: preprint
   tags:
   - Medical Imaging
@@ -93,6 +95,7 @@
   publisher: SSRN Preprint
   date: '2026-01-01'
   link: https://doi.org/hcrdfm
+  image: images/vlm-uav-navigation.png
   type: preprint
   description: A cross-modal UAV navigation framework that fuses monocular depth with
     vision-language models and issues MAVLink commands. It benchmarks six VLMs in
@@ -167,6 +170,7 @@
   publisher: SSRN Preprint
   date: '2026-01-01'
   link: https://doi.org/hcrdfn
+  image: images/spark-optimizer.png
   type: preprint
   tags:
   - Machine Learning
@@ -199,6 +203,7 @@
     Engineering (ICECTE)
   date: '2026-01-29'
   link: https://doi.org/hb5qmc
+  image: images/fa-eegnet.jpg
   type: paper
   tags:
   - Biomedical Signals
@@ -215,6 +220,7 @@
   publisher: SSRN Preprint
   date: '2026-01-01'
   link: https://doi.org/hcrdfp
+  image: images/agl-loss.png
   type: preprint
   description: Under review at *IEEE Transactions on Neural Networks and Learning
     Systems*.
@@ -305,6 +311,7 @@
   publisher: Research Square Preprint
   date: '2025-11-21'
   link: https://doi.org/hb5qm5
+  image: images/histology-model-architecture.png
   type: preprint
   description: An ensemble of CNNs combined with super-resolution and explainable-AI
     methods (Grad-CAM, SHAP, LIME) for interpretable histological cancer cell detection.
@@ -348,6 +355,7 @@
   publisher: arXiv
   date: '2025-08-23'
   link: https://arxiv.org/abs/2508.17107
+  image: images/sugarcane-shufflenet.png
   type: preprint
   description: A curated sugarcane leaf-disease dataset from Bangladesh, a very fast
     lightweight CNN for on-device diagnosis, and a progressive web app for field deployment.
@@ -388,6 +396,7 @@
   publisher: 2025 International Conference on Information Resources Management (CONF-IRM)
   date: '2025-07-01'
   link: https://aisel.aisnet.org/confirm2025/14
+  image: images/learning-styles-ai.png
   type: paper
   tags:
   - Machine Learning
