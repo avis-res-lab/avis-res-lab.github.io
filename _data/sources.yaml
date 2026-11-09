@@ -36,6 +36,7 @@
       link: https://arxiv.org/abs/2609.33259
 
 - id: doi:10.2139/ssrn.7671942
+  image: images/spatial-graph-tokenization.png
   type: preprint
   publisher: SSRN Preprint
   description: A deterministic, non-neural visual tokenizer that adapts Byte Pair Encoding to images by merging adjacent patches along a planar graph, with formal guarantees on the resulting visual tokens.
@@ -43,12 +44,14 @@
     - Computer Vision
 
 - id: doi:10.2139/ssrn.7524474
+  image: images/bone-health-classification.png
   type: preprint
   publisher: SSRN Preprint
   tags:
     - Medical Imaging
 
 - id: doi:10.2139/ssrn.7374301
+  image: images/vlm-uav-navigation.png
   type: preprint
   publisher: SSRN Preprint
   description: A cross-modal UAV navigation framework that fuses monocular depth with vision-language models and issues MAVLink commands. It benchmarks six VLMs in simulation and flight-tests the best candidates on a Pixhawk 6C quadrotor.
@@ -85,6 +88,7 @@
       link: https://doi.org/10.1371/journal.pone.0345778
 
 - id: doi:10.2139/ssrn.6556339
+  image: images/spark-optimizer.png
   type: preprint
   publisher: SSRN Preprint
   tags:
@@ -97,12 +101,14 @@
     - Medical Imaging
 
 - id: doi:10.1109/ICECTE69292.2026.11429349
+  image: images/fa-eegnet.jpg
   type: paper
   publisher: 2026 5th International Conference on Electrical, Computer & Telecommunication Engineering (ICECTE)
   tags:
     - Biomedical Signals
 
 - id: doi:10.2139/ssrn.6484120
+  image: images/agl-loss.png
   type: preprint
   publisher: SSRN Preprint
   description: Under review at *IEEE Transactions on Neural Networks and Learning Systems*.
@@ -140,6 +146,7 @@
     - Precision Agriculture
 
 - id: doi:10.21203/rs.3.rs-8157817/v1
+  image: images/histology-model-architecture.png
   type: preprint
   publisher: Research Square Preprint
   description: An ensemble of CNNs combined with super-resolution and explainable-AI methods (Grad-CAM, SHAP, LIME) for interpretable histological cancer cell detection.
@@ -155,6 +162,7 @@
     - Deep Learning
 
 - id: arxiv:2508.17107
+  image: images/sugarcane-shufflenet.png
   type: preprint
   date: 2025-08-23
   description: A curated sugarcane leaf-disease dataset from Bangladesh, a very fast lightweight CNN for on-device diagnosis, and a progressive web app for field deployment.
@@ -174,6 +182,7 @@
 
 # No DOI; cited via its AIS eLibrary URL. Title/authors/venue overridden for clean formatting.
 - id: url:https://aisel.aisnet.org/confirm2025/14
+  image: images/learning-styles-ai.png  
   title: "Predicting Learning Styles with AI: Toward Adaptive and Personalized Education"
   type: paper
   authors:
