@@ -1,10 +1,12 @@
 ---
 title: "Explainable AI for histological cancer detection"
+image: images/histology-cancer-detection.png
 tags:
   - ongoing
   - medical ai
   - explainable ai
 ---
+
 
 Deep learning can now classify microscopic tissue images with high accuracy, but pathologists rarely trust a model that cannot show *why* it reached a decision.
 This project builds cancer-detection models that are both accurate and interpretable. It is funded by the **Ministry of Science and Technology (MOST)** and runs in collaboration with **Bangladesh Medical University (BMU)**.
