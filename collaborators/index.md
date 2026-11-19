@@ -59,13 +59,16 @@ AVIS Lab collaborates with researchers, academic institutions, and research grou
       style="width: 180px; height: 180px; border-radius: 50%; object-fit: cover;"
     >
 
-    <h3 style="text-align: center;">Dr. A. K. M. Azad</h3>
-
+    <h3 style="text-align: center;">Dr. AKM Azad</h3>
+    
     <p style="text-align: center;">
-      Associate Professor<br>
+      Associate Professor of Data Science, AI, and Biostatistics<br>
+      Department of Mathematics &amp; Statistics,<br>
       Imam Mohammad Ibn Saud Islamic University (IMSIU)<br>
-      Riyadh, Saudi Arabia
+      Senior Collaborator, Global Burden of Disease (GBD),<br>
+      IHME, University of Washington
     </p>
+
   </div>
 
 </div>
