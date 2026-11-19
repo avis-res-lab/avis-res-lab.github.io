@@ -11,6 +11,7 @@ We publish at venues including Findings of ACL, *PLOS One*, *Plant Methods*, and
 {% include section.html %}
 
 ## Latest news
+- **Nov 2026:** Our collaborative research with the **Department of Management Information Systems (MIS), University of Dhaka**, titled **"Prioritizing Anomalous NetFlow Records in Organizational Traffic Using an Autoencoder with Public Benchmark Validation,"** has been accepted for publication in ***Discover Artificial Intelligence***, a Springer Nature  Q1 journal with an impact factor of 11.29. The study focuses on using autoencoder-based anomaly detection to prioritize suspicious network traffic records for further investigation.
 
 - **Nov 2026:** Our paper **"Beyond Visible Evidence: Open-World Amodal Counting Under Spatial Occlusion" (CountOCC)** has been accepted at the **IEEE/CVF Winter Conference on Applications of Computer Vision (WACV 2027)**! The work introduces an open-world amodal counting framework that reconstructs occluded object features using spatial context and multimodal guidance. [Paper](https://arxiv.org/abs/2511.12702)
 
