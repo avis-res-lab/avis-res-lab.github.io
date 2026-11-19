@@ -28,14 +28,10 @@ AVIS Lab collaborates with researchers, academic institutions, and research grou
     <p style="text-align: center;">
       DPhil Researcher<br>
       University of Oxford<br>
-      Principal Investigator, Cortex AI Research Group
+      Principal Investigator, <a href="https://cortexairg.com" target="_blank" rel="noopener noreferrer">Cortex AI Research Group</a>
     </p>
 
-    <p style="text-align: center;">
-      <a href="https://cortexairg.com" target="_blank" rel="noopener noreferrer">
-        Cortex AI Research Group
-      </a>
-    </p>
+
   </div>
 
   <!-- Dr. M. Helal Uddin Ahmed -->
